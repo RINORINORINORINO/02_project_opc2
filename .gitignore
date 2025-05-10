@@ -1,0 +1,62 @@
+# 환경 설정
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# API 키 및 비밀 정보
+*.pem
+*.key
+
+# 출력 폴더
+output_*/
+output_audio/
+output_subtitles/
+output_texts/
+output_analysis/
+
+# 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.hypothesis/
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+*.swp
+*~
+._*
+
+# IDE 설정
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 로그 파일
+*.log
+logs/
+npm-debug.log*
+
+# 임시 파일
+tmp/
+temp/
+
+# 개발 중 생성된 파일
+*.mp3
+*.srt
+*.wav
+
+# 윈도우 파일
+*.lnk
+
+cache/
