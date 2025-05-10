@@ -39,7 +39,7 @@ idna
 urllib3
 
 # OpenAI Whisper (음성 인식)
-openai-whisper
+# openai-whisper
 
 # Google Drive API
 google-api-python-client
@@ -51,6 +51,9 @@ pytesseract
 Pillow
 opencv-python
 numpy
+google-cloud-vision
+boto3
+azure-ai-formrecognizer
 
 # 주의: Tesseract OCR 엔진도 별도로 설치해야 합니다.
 # Windows: https://github.com/UB-Mannheim/tesseract/wiki 에서 인스톨러 다운로드

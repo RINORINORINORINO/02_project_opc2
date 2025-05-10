@@ -54,6 +54,57 @@ def api_call_with_retry(func: Callable, *args, **kwargs) -> Any:
                 
                 print(f"⚠️ API 호출 실패 ({attempt+1}/{MAX_RETRIES}): {str(e)}")
 
+def process_korean_text(text: str) -> str:
+    """
+    한국어 텍스트 처리 최적화
+    
+    Args:
+        text: 처리할 한국어 텍스트
+        
+    Returns:
+        처리된 텍스트
+    """
+    # 이미 정의된 함수 process_script_for_tts와 비슷하지만 한국어에 특화된 처리를 추가
+
+    # 특수 문자 처리
+    # 한국어에서 자주 사용되는 특수 문자 정리
+    text = text.replace('…', '...')
+    text = text.replace('․', '.')
+    text = text.replace('·', '·')  # 가운뎃점 유지
+    text = text.replace('〈', '<').replace('〉', '>')
+    text = text.replace('「', '"').replace('」', '"')
+    text = text.replace('『', ''').replace('』', ''')
+    text = text.replace('·', '·')  # 가운뎃점 유지
+    
+    # 문장 부호 일관성 유지
+    text = text.replace('"', '"').replace('"', '"')
+    text = text.replace("'", "'").replace("'", "'")
+    
+    # 한국어에 맞는 단락 구분
+    # 여러 줄바꿈을 두 줄바꿈으로 통일
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    
+    # 중복 공백 제거
+    text = re.sub(r' {2,}', ' ', text)
+    
+    # 문장 끝에 불필요한 공백 제거
+    text = re.sub(r'([.!?]) +\n', r'\1\n', text)
+    
+    # 한국어 맞춤법 교정을 위한 일반적인 패턴
+    # (완전한 맞춤법 교정은 별도 라이브러리가 필요하지만, 간단한 패턴은 여기서 처리)
+    # 예: "~습니다 만" -> "~습니다만"
+    text = re.sub(r'습니다 만', '습니다만', text)
+    text = re.sub(r'입니다 만', '입니다만', text)
+    text = re.sub(r'(\S) 을(\s|$)', r'\1을\2', text)  # "것 을" -> "것을"
+    text = re.sub(r'(\S) 를(\s|$)', r'\1를\2', text)  # "것 를" -> "것를"
+    text = re.sub(r'(\S) 이(\s|$)', r'\1이\2', text)  # "것 이" -> "것이"
+    text = re.sub(r'(\S) 가(\s|$)', r'\1가\2', text)  # "것 가" -> "것가"
+    text = re.sub(r'(\S) 는(\s|$)', r'\1는\2', text)  # "것 는" -> "것는"
+    text = re.sub(r'(\S) 도(\s|$)', r'\1도\2', text)  # "것 도" -> "것도"
+    
+    return text
+
+
 def advanced_summarize_texts(texts: List[str], topic: str, structure: str, style: str = "international_relations_expert", output_dir: str = "output_analysis", additional_instructions: str = "", content_types: List[str] = ["longform", "shortform1", "shortform2"]) -> Dict[str, str]:
     """
     여러 텍스트를 통합 요약하고, 주제와 논리 구조에 맞는 콘텐츠 스크립트 생성
@@ -113,14 +164,20 @@ def advanced_summarize_texts(texts: List[str], topic: str, structure: str, style
     if "longform" in content_types:
         # 롱폼 스크립트 생성
         print("📝 국제관계/지정학/세계사 전문가 스타일의 롱폼 스크립트 생성 중...")
-        result["longform"] = create_longform_script(integrated_analysis, topic, structure, additional_instructions, output_dir)
+        longform_script = create_longform_script(integrated_analysis, topic, structure, additional_instructions, output_dir)
+        # result["longform"] = create_longform_script(integrated_analysis, topic, structure, additional_instructions, output_dir)
+        if longform_script:
+            result["longform"] = process_korean_text(longform_script)
     
     # 숏폼 스크립트 생성
     shortform_indices = [int(content_type.replace("shortform", "")) for content_type in content_types if content_type.startswith("shortform")]
     
     for idx in shortform_indices:
         print(f"📝 숏폼 스크립트 #{idx} 생성 중...")
-        result[f"shortform{idx}"] = create_shortform_script(integrated_analysis, topic, idx, output_dir)
+        shortform_script = create_shortform_script(integrated_analysis, topic, idx, output_dir)
+        # result[f"shortform{idx}"] = create_shortform_script(integrated_analysis, topic, idx, output_dir)
+        if shortform_script:
+            result[f"shortform{idx}"] = process_korean_text(shortform_script)
     
     print("✅ 모든 스크립트 생성 완료")
     return result
@@ -168,9 +225,9 @@ def analyze_sources_parallel(texts: List[str], topic: str, output_dir: str) -> L
                 truncated_text += "\n\n[텍스트가 너무 길어 나머지는 생략되었습니다]"
                 
             summary_prompt = f"""
-당신은 국제관계, 지정학, 세계사 분야의 최고 전문가로, 소스 내용을 국제정치 및 역사적 관점에서 분석합니다.
+당신은 국제관계, 지정학, 세계사 분야의 최고 전문가로, 소스 내용을 한국어로 분석합니다.
 
-소스 #{index+1}에 대한 심층 국제정치/지정학/세계사 분석을 제공해주세요. 주제는 "{topic}"입니다.
+소스 #{index+1}에 대한 심층 국제정치/지정학/세계사 분석을 한국어로 제공해주세요. 주제는 "{topic}"입니다.
 다음을 포함해야 합니다:
 
 1. 국제정치적 핵심 요점과 지정학적 의미 (가능한 많은 구체적 정보 추출)
@@ -345,7 +402,8 @@ def create_integrated_analysis(source_summaries: List[Dict[str, Any]], topic: st
         f.write(all_analyses)
     
     integration_prompt = f"""
-당신은 국제관계, 지정학, 세계사 분야의 최고 전문가로, 여러 소스의 정보를 종합해 국제정치와 지정학에 관한 전문적인 통합 분석을 제공합니다.
+당신은 국제관계, 지정학, 세계사 분야의 최고 전문가로, 
+여러 소스의 정보를 종합해 국제정치와 지정학에 관한 전문적인 통합 분석을 한국어로 제공합니다.
 
 주제: {topic}
 구조: {structure}
@@ -354,7 +412,9 @@ def create_integrated_analysis(source_summaries: List[Dict[str, Any]], topic: st
 
 {all_analyses}
 
-위 분석을 바탕으로 주제에 관한 종합적인 국제관계/지정학 전문 분석을 제공해주세요. 다음을 포함해야 합니다:
+위 분석을 바탕으로 주제에 관한 종합적인 국제관계/지정학 전문 분석을 한국어로 제공해주세요. 
+
+다음을 포함해야 합니다:
 
 1. 사안의 명확한 국제정치적 맥락과 배경
 2. 관련된 주요 국가들과 행위자들의 입장과 이해관계
@@ -374,6 +434,8 @@ def create_integrated_analysis(source_summaries: List[Dict[str, Any]], topic: st
 - 모순되는 정보가 있을 경우 출처의 신뢰성을 평가하여 가장 정확한 정보를 제시하세요
 - 지정학적 분석과 함께 지역의 사회문화적, 경제적, 역사적 맥락도 고려하세요
 - 정치적 중립성을 유지하면서도 전문가적 통찰력을 보여주세요
+
+모든 분석은 반드시 한국어로 작성해주세요.
 """
     
     try:
@@ -456,7 +518,7 @@ def create_longform_script(integrated_analysis: str, topic: str, structure: str,
 다음 사항에 특별히 유의하세요:
 
 1. 국제관계/지정학/세계사 전문가로서의 권위와 전문성을 유지하되, 흥미롭고 매력적인 스토리텔링으로 내용을 전달하세요
-2. 시청자의 관심을 사로잡는 강력한 오프닝으로 시작하고, 핵심 질문이나 주요 명제로 호기심을 유발하세요
+2. 일반 시청자의 관심을 사로잡는 흥미로운 사례나 반전, 놀라운 데이터로 시작하세요
 3. 복잡한 국제정치적 개념과 지정학 이론을 명확한 비유와 시각적 예시로 설명하세요
 4. 적절한 지점에서 주요 국제관계 학자, 역사적 인물, 정치 지도자, 연구기관 등을 인용하여 신뢰성을 강화하세요
 5. 영상 요소는 [영상: 설명] 형식으로 스크립트에 통합하세요
@@ -483,7 +545,9 @@ def create_longform_script(integrated_analysis: str, topic: str, structure: str,
 
 {additional_instructions}
 
-이 스크립트는 한국어로 작성하며, 자연스럽고 전문적인 한국어 표현을 사용하세요. 한국 시청자들에게 친숙하면서도 전문적인 느낌을 줄 수 있도록 작성해주세요. 최종 스크립트는 약 2700-3300자 정도가 되어야 합니다.
+이 스크립트는 한국어로 작성하며, 자연스럽고 전문적인 한국어 표현을 사용하세요. 
+한국 시청자들에게 친숙하면서도 전문적인 느낌을 줄 수 있도록 작성해주세요. 
+최종 스크립트는 약 2700-3300자 정도가 되어야 합니다.
 """
     
     try:
@@ -546,23 +610,24 @@ def create_shortform_script(integrated_analysis: str, topic: str, shortform_numb
 통합 국제관계/지정학/세계사 분석:
 {integrated_analysis}
 
-위 분석을 바탕으로 50-80초 길이의 숏폼 비디오를 위한 스크립트를 작성하세요(약 250-400자).
+위 분석을 바탕으로 60-80초 길이의 숏폼 비디오를 위한 스크립트를 작성하세요(약 300-400자).
 {shortform_focus}
 
-국제관계/지정학/세계사의 핵심에 중점을 두고 다음 요소를 반드시 포함하세요:
-1. 시청자의 관심을 즉시 사로잡는 도입부
-2. 주제에 대한 핵심 통찰 1-2개
-3. 국제관계에 미치는 영향과 중요성 설명
-4. 놀라운 사실이나 흥미로운 관점
+숏폼 콘텐츠의 성공 요소를 반영하세요:
+1. 첫 3초 내에 시청자의 호기심을 강하게 자극하는 질문이나 충격적 사실로 시작
+2. 청중이 쉽게 이해할 수 있는 명확하고 단순한 메시지 하나에 집중
+3. 자료를 나열하기보다 스토리텔링 방식으로 정보 전달
+4. 사실 주장 시 명확한 근거 제시 (숫자, 통계, 인용)
+5. 짧은 시간 내 최대 임팩트를 주는 압축적 표현과 생생한 묘사
+6. 한국 청중의 관심과 문화적 맥락을 고려한 내용 구성
+7. 복잡한 개념도 가장 단순명료하게 전달
 
-숏폼 스크립트 작성 지침:
-1. 즉시 관심을 끄는 강력한 문장이나 질문으로 시작하세요
-2. 핵심 메시지 하나에 집중하세요
-3. 불필요한 세부사항은 제거하고 핵심 내용만 담백하게 전달하세요
-4. 역동적이고 시각적인 언어를 사용하세요
-5. 영상 요소는 **[영상: 설명]** 형식으로 스크립트에 통합하세요
-6. 시청자의 궁금증을 자극하는 질문이나 생각거리로 마무리하세요
-7. 절대로 채널 홍보나 구독 요청 등을 포함하지 마세요
+한국어 숏폼 콘텐츠의 특징을 반영해 스크립트를 작성하세요:
+- 친근하고 대화체 문체 사용 (예: ~습니다 보다는 ~해요 선호)
+- 간결하고 명확한 문장 구성
+- 중요 키워드 강조를 위한 반복과 변형
+- 젊은 시청자도 공감할 만한 현대적 표현과 비유
+- 영상 전환에 적합한 명확한 구조와 흐름
 
 중요: 스크립트 내 모든 형식은 일관되게 유지하세요. 섹션 구분이 필요하면 항상 **[영상: 설명]** 형식만 사용하세요.
 
@@ -595,90 +660,6 @@ def create_shortform_script(integrated_analysis: str, topic: str, shortform_numb
     except Exception as e:
         print(f"❌ 숏폼 스크립트 #{shortform_number} 생성 중 오류: {e}")
         return ""
-
-
-# 더 이상 사용되지 않음 - create_longform_script로 대체됨
-# def create_final_script(integrated_analysis: str, topic: str, structure: str, additional_instructions: str, output_dir: str) -> str:
-#     """
-#     통합 분석을 바탕으로 최종 스크립트 생성
-    
-#     Args:
-#         integrated_analysis: 통합 분석 텍스트
-#         topic: 콘텐츠 주제
-#         structure: 논리 구조
-#         additional_instructions: 추가 지시사항
-#         output_dir: 결과물 저장 디렉토리
-        
-#     Returns:
-#         최종 스크립트 텍스트
-#     """
-#     script_prompt = f"""
-# 당신은 군사 및 국제정치 전문가입니다. 복잡한 군사 및 지정학적 주제를 전문적이고 담백하게 전달하는 콘텐츠를 제작합니다.
-
-# 주제: {topic}
-# 구조: {structure}
-
-# 통합 군사/국제정치 분석:
-# {integrated_analysis}
-
-# 위 분석을 바탕으로 "{structure}" 구조를 따르는 전문적인 콘텐츠 스크립트를 작성해주세요.
-# 다음 사항에 특별히 유의하세요:
-
-# 1. 국제정치/군사 전문가로서의 권위와 전문성을 유지하고, 담백하고 정보 중심적인 내용 전달에 집중하세요
-# 2. 시청자의 관심을 사로잡는 강력한 오프닝으로 시작하고, 핵심 질문이나 주요 명제로 호기심을 유발하세요
-# 3. 복잡한 군사적/지정학적 개념을 명확한 비유와 시각적 예시로 설명하세요
-# 4. 적절한 지점에서 주요 군사 이론가, 안보 전문가, 국제관계 학자, 연구기관, 언론 등을 인용하여 신뢰성을 강화하세요
-# 5. 영상 요소는 [영상: 설명] 형식으로 스크립트에 통합하세요
-# 6. 중요한 군사적/지정학적 사례나 역사적 사건을 활용하여 시청자의 이해를 돕고 관심을 유지하세요
-# 7. 균형 잡힌 관점을 제시하되, 국제정치/군사 전문가로서의 통찰력을 강조하세요
-# 8. 분석적이면서도 매력적인 스토리텔링 요소를 포함하여 시청자가 끝까지 시청하게 하세요
-# 9. 논리적인 흐름을 자연스럽게 유지하고, 각 포인트 간의 연결을 명확히 하세요
-# 10. 스크립트 결론에서는 핵심 내용을 요약하고, 시청자에게 생각해볼 만한 질문이나 전망을 제시하세요
-# 11. "좋아요", "구독", "알림 설정" 등 채널 프로모션 언급은 완전히 배제하세요
-# 12. 서두와 결론에서 채널 소개나 환영 인사를 포함하지 마세요 - 즉시 주제로 들어가세요
-
-# 스크립트에 다음 스타일 요소를 포함하세요:
-# - 권위 있고 전문적인 톤
-# - 군사/국제정치 전문용어 사용 시 간결한 설명 병행
-# - 객관적이고 분석적인 접근 방식
-# - 적절한 지점에서 전문가적 통찰 추가
-# - 각 섹션이 끝날 때마다 다음 내용으로 자연스럽게 연결되는 흐름
-# - 논리적인 흐름과 해당 단락에 내용에 맞는 수치 자료가 있다면 활용
-# - 중요한 포인트는 명확하고 기억하기 쉬운 문구로 강조
-# - 결론 부분에서는 주제와 관련된 깊이 있는 질문이나 전망으로 마무리
-
-# {additional_instructions}
-
-# 이 스크립트는 영어권 유튜브 시청자를 대상으로 합니다. 완벽한 원어민 수준의 영어로 작성하여 자연스럽고 전문적인 콘텐츠를 제공하세요.
-# """
-    
-#     try:
-#         # API 호출 함수
-#         def make_api_call():
-#             res = client.chat.completions.create(
-#                 model="gpt-4o",
-#                 messages=[{"role": "user", "content": script_prompt}],
-#                 temperature=0.7,
-#                 max_tokens=4000,
-#             )
-#             return res.choices[0].message.content.strip()
-        
-#         final_script = api_call_with_retry(make_api_call)
-        
-#         # 스크립트 포맷팅 개선
-#         final_script = format_script(final_script)
-        
-#         # 결과물 저장
-#         script_file = os.path.join(output_dir, "final_military_script.txt")
-#         with open(script_file, "w", encoding="utf-8") as f:
-#             f.write(final_script)
-            
-#         return final_script
-        
-#     except Exception as e:
-#         print(f"❌ 최종 스크립트 생성 중 오류: {e}")
-#         return ""
-
 
 def format_script(script: str) -> str:
     """스크립트 형식을 개선"""

@@ -1,0 +1,630 @@
+
+--- 페이지 1 ---
+In Focus
+Ukraine’s Lessons for Future Combat: 
+Unmanned Aerial Systems and Deep Strike
+Harry Halem
+©2023 Harry Halem
+ABSTR ACT: The Russia-Ukraine War holds many lessons 
+for the US Army and American policymakers and leaders 
+on the nature and role of reconnaissance-strike complexes in modern 
+combat, especially Ukraine’s development of a battle-management 
+system that fuses unmanned aerial systems and satellite 
+reconnaissance to enable the fire coordination for deep strikes  
+into the enemy rear. In the research presented here, open-source 
+analysis and interviews in Ukraine focus on the development 
+and employment of reconnaissance-strike complexes with respect 
+to deep strike and the likelihood of mutual territorial attack.
+Keywords: unmanned aerial systems, deep strike, reconnaissance-strike 
+complex, electronic warfare, Russia-Ukraine War
+T
+he 
+Russia-Ukraine 
+War 
+presents 
+the 
+first 
+instance 
+in which both combatants deploy robust, if still largely 
+primitive, reconnaissance-strike complexes (RSCs) that they 
+innovate during wartime. This situation allows observers to identify 
+fundamental mechanics of the interaction between these complexes 
+that provide programmatic and intellectual lessons for the US Army 
+as it prepares to face near-peer adversaries for the first time since the 1980s. 
+Ukraine’s experience demonstrates the relevance of RSCs to the deep fight—
+in Ukraine’s case, a complex enabled by unmanned aerial systems (UAS) 
+is employed to allow for strikes deep into the Russian rear, using a handful 
+of precision weapons to generate major effects.
+This analysis first identifies the roots of Ukrainian military learning 
+from 2014–22 and argues that the Russia-Ukraine War constitutes 
+a watershed moment in combat because both sides employ a primitive RSC. 
+It then explicates the technical and operational characteristics of Ukraine’s  
+unmanned aerial system and intelligence, surveillance, and reconnaissance 
+(ISR) system and identifies the manner in which Ukraine’s UAS-ISR system 
+generates opportunities for deep strike. Finally, it outlines several 
+programmatic and intellectual takeaways for the US Army, particularly  
+on the role of deep strike.
+--- 페이지 2 ---
+22  Parameters 53(4) Winter 2023–24
+Context: Ukraine’s Strategic Problem and Military Learning
+The current Armed Forces of Ukraine (ZSU) reflect a cross section 
+of Ukrainian society, making civilian applications like Signal and Scribble Maps 
+crucial to Ukrainian UAS-ISR use as new soldiers turn to technologies 
+they know from civilian experience. Nevertheless, the system’s basic idea— 
+to create a pervasive UAS-ISR complex, link it to commanders, and enable 
+distributed fires—has existed since the 2014 Donbas war because Ukraine 
+has confronted a relatively consistent strategic problem.
+The Russian armed forces have outmatched the ZSU since the  
+Donbas war began.1 In 2014, Ukraine had around 6,000 combat troops,  
+had just experienced a traumatic change in political leadership, and had  
+virtually no international partners even when compared to Russian-backed forces 
+in eastern Ukraine.2 Yet, Ukraine’s ragtag forces gained an advantage over 
+the Russian-backed separatists, prompting a Russian intervention, and despite 
+setbacks, performed reasonably well.3 From that point, Ukraine’s strategic 
+problem was apparent: it confronted a qualitatively and quantitatively superior 
+Russian military while lacking clear allies. The Ukrainian armed forces were, 
+therefore, compelled to innovate.
+Despite Ukraine’s structural political issues, specific bureaucratic shifts 
+and its political culture gave the ZSU a learning advantage over the Russian 
+military. In 2018, Ukraine redesignated the Anti-Terrorist Operation—
+Author’s Note: In between this article’s composition and publication, one of its sources, and one of my  
+close friends, was killed in action. His loss, like so many others, came in defense of his country and  
+serves as a reminder of the sacrifices liberty demands.
+Acknowledgments: I spent several weeks in Ukraine in March 2023 and discussed unmanned aerial systems 
+(UAS) employment in intelligence, surveillance, reconnaissance, and targeting (ISR/T) contexts with a variety 
+of active Ukrainian military personnel. My dataset is, of necessity, incomplete. Any number of interviews 
+do not indicate a legitimate sample size for data experimentation. The nature of this war and the time that 
+analysts have to collect and process information indicate that my conclusions are more inductive inferences 
+subject to future refinement than deductive truths. Nor did my limited Ukrainian linguistic abilities help 
+the situation. I am indebted to those Ukrainian soldiers and civilians, among many others in Ukraine, 
+who were willing to help bridge the gap with subjects who would have struggled to communicate with me. 
+Indeed, the openness of many Ukrainians to foreign observers should not be underestimated—in retrospect 
+it should come as no surprise that a nation of 44 million struggling for its existence should welcome all the help 
+it can receive from external assessors. One unimpeachable conclusion I can draw is that the United States 
+and its allies should leverage this cultural reality and get as many analysts—uniformed and civilian— 
+into Ukraine as possible. Moreover, in a war as violent and intense as this one, any data rapidly lose  
+accuracy with time. All conclusions must be updated with fresh information.
+1.  Mykhaylo Zabrodskyi et al., Preliminary Lessons in Conventional Warfighting from Russia’s Invasion 
+of Ukraine: February–July 2022 (London: Royal United Services Institute [RUSI], November 2022), 
+13–18, 36.
+2.  Lawrence Freedman, Ukraine and the Art of Strategy (New York: Oxford University Press, 
+2019), 106–16.
+3.  Freedman, Art of Strategy, 114. See also Andriy Zagorodnyuk et al., “Is Ukraine’s Reformed  
+Military Ready to Repel a New Russian Invasion?,” UkraineAlert (blog), Atlantic Council (website), 
+December 23, 2021, https://www.atlanticcouncil.org/blogs/ukrainealert/is-ukraines-reformed-military 
+-ready-to-repel-a-new-russian-invasion/.
+--- 페이지 3 ---
+In Focus
+Halem  23
+the bureaucratic title for Kyiv’s operations in the country’s east—
+as the Joint Forces Operation.4 This change formally recognized Russia 
+as a belligerent in the conflict and shifted command responsibility from 
+the Security Service of Ukraine to the Ukrainian General Staff. This transition 
+enabled a robust learning process within the Armed Forces of Ukraine since 
+its soldiers and officers could openly discuss the war they were fighting. Internal 
+learning dovetailed with the West’s training missions.5 The Russian military, 
+by contrast, was never formally at war. The Syrian Civil War became its reference 
+point—a conflict in which Russia held absolute air control and played 
+an enabling role was not a helpful analogy to the current Russia-Ukraine War.6 
+Moreover, multiple high-level Ukrainian commanders today experienced 
+combat in the Donbas or were part of the post-2014–15 training cycle 
+and are far younger than their Western counterparts, indicating significant 
+cultural turnover that enables innovation.7
+Also developed from 2014–22 was the sophisticated volunteer 
+nongovernmental (NGO) system that interfaced directly with the military 
+since the earliest days of the Donbas war. Most notable of these NGOs 
+is the UAS-focused Aerorozvidka.8 Relations between the Ukrainian defense 
+ministry and these NGOs have been fractious at times. Even in wartime, 
+it took months for the defense ministry to begin procuring unmanned aerial 
+systems for units directly—and today, private donations remain essential. 
+The elements of the current Ukrainian system, however, have deep roots 
+in the strategic culture of the ZSU.
+Historical Trends and Modern Strike
+The Ukrainian armed forces’ UAS-ISR system, an outgrowth of their  
+unique strategic culture, is of interest for more than just tactical and
+4.  Adam Coffey, “Commentary – Ukraine Declares ‘Anti-Terrorist Operation in the Donbas’ Officially 
+Over: What Does That Mean?,” RUSI (website), May 16, 2018, https://rusi.org/explore-our-research 
+/publications/commentary/ukraine-declares-anti-terrorist-operation-donbas-officially-over-what-does-mean.
+5.  Per the author’s work in Ukraine (March 29, 2023), these missions have had a cultural effect since 
+the 1990s, which only intensified after 2014 when the ZSU pivoted to a war footing. See also John Jaworsky, 
+“Ukraine’s Armed Forces and Military Policy,” Harvard Ukrainian Studies 20 (1996): 238–40.
+6.  For Russian assessments of Syria, see Mason Clark, The Russian Military’s Lessons Learned 
+in Syria, Military Learning and the Future of War Series (Washington, DC: Institute for the Study 
+of War [ISW], January 2021), 11–12.
+7.  “General Valerii Zaluzhnyi: Commander-in-Chief of the Armed Forces of Ukraine,” Ministry of Defence (MoD) 
+of Ukraine (website), last updated September 23, 2021, https://www.mil.gov.ua/en/ministry-of-defence 
+-leader/general-valerii-zaluzhnyi.html; Yuri Lapaiev, “New Appointments in the Ukrainian Military: 
+Occasion for Restrained Optimism?,” Eurasia Daily Monitor 18, no. 132 (August 2021), https://jamestown 
+.org/program/new-appointments-in-the-ukrainian-military-occasion-for-restrained-optimism/; and “Lieutenant 
+General Serhii Shaptala: Chief of General Staff of the Armed Forces of Ukraine,” MoD of Ukraine 
+(website), last updated September 23, 2021, https://www.mil.gov.ua/en/ministry-of-defence-leader 
+/lieutenant-general-serhii-shaptala.html.
+8.  Patrick Tucker, “Ukraine’s Drone Warriors,” NATOSource (blog), Atlantic Council (website), 
+March 10, 2015, https://www.atlanticcouncil.org/blogs/natosource/ukraine-s-drone-warriors/.
+--- 페이지 4 ---
+24  Parameters 53(4) Winter 2023–24
+programmatic reasons. The Russia-Ukraine War, the first large-scale 
+conflict since the 2003 invasion of Iraq, is also the first war during which 
+both sides have had to innovate and modify their reconnaissance-strike 
+complexes and, indeed, the first conflict in which both combatants have 
+something approximating RSCs.
+The RSC concept has its roots in Soviet and Russian doctrine but  
+is conceptually identifiable in Western military thought.9 In brief, the  
+reconnaissance-strike complex is an integrated intelligence, surveillance, 
+reconnaissance, and targeting (ISR/T) fires system, in which the time 
+between target identification and engagement is extremely compressed.10 
+Sensors and shooters operate together in a harmonized network that makes 
+combat a game of target identification, in which the side that is found 
+first is usually killed.11
+The RSC concept is inextricably linked to intellectual-doctrinal 
+developments in the 1980s in the United States and Soviet Union.12 
+Both doctrines increasingly pointed toward attacking the enemy at operational 
+depth, a more natural line for the Soviets with deep operational theory, 
+but one that finally translated into the West.13
+A properly constructed RSC should enable the synchronization of violence 
+across an immense battlespace at depth and width, creating a combat area orders 
+of magnitude larger than what was historically feasible.14 The US military 
+deployed an early reconnaissance-strike complex in the Iraq wars, while 
+China and Russia have deployed their own RSCs since the late 2010s.15 
+These complexes should also include artificial intelligence (AI); the fact that 
+neither Ukraine nor Russia employs major AI indicates the degree to which 
+their reconnaissance-strike complexes are still primitive.
+9.  Lester W. Grau and Charles K. Bartles, The Russian Reconnaissance Fire Complex Comes 
+of Age (Oxford, UK: University of Oxford Changing Character of War Centre/Axel and  
+Margaret Axson Johnson Foundation/Pembroke College Oxford, May 2018), https://www.ccw.ox 
+.ac.uk/s/The-Russian-Reconnaissance-Fire-Complex-Comes-of-Age-lz7p.pdf.
+10.  B. A. Friedman, “Reconnaissance-Strike Tactics and Maneuver Warfare I,” Marine Corps Gazette 
+(April 2022), WE3, https://mca-marines.org/wp-content/uploads/Reconnaissance-Strike-Tactics-and 
+-Maneuver-Warfare-I.pdf.
+11.  Andrew F. Krepinevich, Maritime Warfare in a Mature Precision-Strike Regime (Washington, DC:  
+Center for Strategic and Budgetary Assessments, 2014), 82–83, https://csbaonline.org/uploads 
+/documents/MMPSR-Web.pdf.
+12.  See Milan Vego, Recce-Strike Complexes in Soviet Theory and Practice (Fort Leavenworth, KS:  
+Soviet Army Studies Office, June 1990), https://apps.dtic.mil/sti/pdfs/ADA231900.pdf; and Michael J. Sterling, 
+Soviet Reactions to NATO’s Emerging Technologies for Deep Attack, RAND Note (Santa Monica, CA:  
+RAND Corporation, August 1985), https://www.rand.org/content/dam/rand/pubs/notes/2009/N2294.pdf.
+13.  Douglas W. Skinner, Airland Battle Doctrine, Professional Paper 463 (Alexandria, VA:  
+Center for Naval Analyses, September 1988), 13, 31.
+14.  Gordon R. Sullivan and James M. Dubik, “Land Warfare in the 21st Century,” in Envisioning Future 
+Warfare (Fort Leavenworth, KS: US Army Command and General Staff College Press, 1995), 12.
+15.  Andrew F. Krepinevich Jr., The Origins of Victory: How Disruptive Military Innovation Determines 
+the Fate of Great Powers (New Haven, CT: Yale University Press, 2023), 39ff.
+--- 페이지 5 ---
+In Focus
+Halem  25
+Ukraine is not the first conflict in which UAS and loitering munitions have 
+been deployed at large scale. The Second Nagorno-Karabakh War included 
+extensive UAS employment and, arguably, a nascent RSC on Azerbaijan’s part.16 
+Azerbaijan’s success (at least partly) stemmed from structural deficiencies 
+in the Armenian military, namely its lack of short-range air defenses against 
+loitering munitions, inability to intercept fixed-wing UAS consistently, 
+and limited electronic systems.17
+By contrast, the Russia-Ukraine War provides sufficient scale 
+and sophistication for conclusions to be drawn. Indeed, it is the first case 
+of two militaries deploying and modifying their reconnaissance-strike 
+complexes at scale in a competitive manner during wartime. Ukraine and Russia 
+use much of the same equipment in their RSCs, while Russia has replicated 
+Ukrainian employment methods.
+Ukrainian UAS-ISR System
+The ZSU has developed a sophisticated method of UAS employment that 
+is integrated with a broader battle-management system that also receives 
+information from US and private satellites.18 Precision-guided munitions 
+are increasingly capable of hitting any individual target. Historically, however, 
+weapons performance has exceeded practical ISR range.19 Ukraine demonstrates 
+how unmanned aerial systems can narrow the precision-ISR gap through 
+the creation of a UAS-enabled reconnaissance-strike complex.
+Ukraine’s UAS-ISR system accomplishes two goals. First, it transforms 
+traditional artillery fired in battery into “precision” weapons that can individually 
+engage targets and rapidly improve accuracy. Second, it enables the Ukrainian 
+armed forces to employ artillery in a distributed manner by facilitating 
+responsive surveillance over a much wider area when combined with
+16.  Jack Watling and Sidharth Kaushal, “Commentary – The Democratisation of Precision Strike 
+in the Nagorno-Karabakh Conflict,” RUSI (website), October 22, 2020, https://rusi.org/explore-our 
+-research/publications/commentary/democratisation-precision-strike-nagorno-karabakh-conflict.
+17.  Shaan Shaikh and Wes Rumbaugh, “The Air and Missile War in Nagorno-Karabakh: Lessons for the  
+Future of Strike and Defense,” Center for Strategic and International Studies (CSIS) (website), December 8, 
+2020, https://www.csis.org/analysis/air-and-missile-war-nagorno-karabakh-lessons-future-strike-and-defense.
+18.  See Aaron Stein, “Airpower after Ukraine – The TB2: The Value of a Cheap and ‘Good Enough’ 
+Drone,” Atlantic Council (website), August 30, 2022, https://www.atlanticcouncil.org/content-series/airpower 
+-after-ukraine/the-tb2-the-value-of-a-cheap-and-good-enough-drone/. On Kropyva’s defense mapping software, 
+see David Axe, “There’s a Good Reason the Russian Air Force Is Faltering. Ukrainian Air-Defense Crews 
+Have Better Apps,” Forbes (website), October 18, 2022, https://www.forbes.com/sites/davidaxe/2022/10/18 
+/theres-a-good-reason-the-russian-air-force-is-faltering-ukrainian-air-defense-crews-have-better-apps/;  
+Kyiv Independent News Desk, “News Feed – Ukraine to Introduce Delta Situational Awareness System 
+for Military,” Kyiv Independent (website), February 4, 2023, https://kyivindependent.com/government 
+-introduces-nato-standard-delta-management-defense-system/; and “GIS ‘ARTA’: Automated Command 
+and Control System,” n.d., GIS ARTA (website), https://gisarta.org/en/.
+19.  Benjamin F. Koudelka Jr., Network-Enabled Precision Guided Munitions (Maxwell Air Force Base, 
+AL: Air War College Center for Strategy and Technology, November 2005), 86.
+--- 페이지 6 ---
+26  Parameters 53(4) Winter 2023–24
+a fluid battle-management system. This capability reduces the need for exposed 
+logistics hubs and decreases Russian counter-battery effects, thereby allowing 
+the ZSU to remain competitive despite a materiel disadvantage.
+Ukraine’s UAS-ISR system requires the four types of UAS outlined  
+in table 1 below.20 It must be noted that Russian forces increasingly replicate 
+Ukrainian practices, though on average without commensurate results because 
+of poor training standards, less effective equipment, and a lower-quality officer 
+and technical specialist corps. Given the author focused overwhelmingly 
+on Ukrainian tactics, techniques, and procedures during his time in-country 
+and only incidentally discussed Russian practices, the UAS description focuses 
+largely on Ukrainian ISR/T practices. Moreover, while factory specifications 
+vary from the information depicted below for each type of unmanned aerial 
+system, battlefield conditions often limit operational range.
+Table 1. Four types of unmanned aerial systems required by Ukraine’s UAS-ISR system
+Diameter
+Cost
+Range
+Service Ceiling
+Special Features
+Small
+> 1 meter
+< $1,000
+5 kilometers
+> 1,000 meters
+First-person view, copter, used for 
+very short-range reconnaissance 
+and as loitering munitions
+Medium 
+1 meter
+$1,000 – 
+$10,000
+6 kilometers
+1,000 meters
+Short-range reconnaissance,  
+light ordnance, and night work
+Large 
+1–3 meters
+$10,000 – 
+$30,000
+10 kilometers
+> 1,000 meters
+Backbone of Ukrainian ISR
+Fixed-Wing 
+> 3 meters
+> $30,000
+> 20 kilometers 
+(some reach 
+several 100 
+kilometers)
+1,000 meters plus
+Highest-quality sensors
+Units often share information at the fireteam and squad level,  
+but most intelligence analysis and target distribution occurs at the company 
+to battalion level. The system’s flexibility stems from Ukraine’s technological 
+literacy and extensive efforts to shift UAS-dense units around the front line.  
+Much UAS training occurs through private charities that acquire 
+unmanned aerial systems on the European market, transfer systems to units,  
+train operators, and conduct the equivalent of doctrinal development.
+20.  Information in table 1 comes from the author’s interviews, alongside other information in the public  
+domain. See Jeffrey A. Edmonds and Samuel Bendett, Russia’s Use of Uncrewed Systems in Ukraine 
+(Arlington, VA: Center for Naval Analyses, March 2023), 10, https://www.cna.org/reports/2023/03 
+/Russian-Uncrewed-Systems-Ukraine.pdf; and David Hambling, “Editors’ Pick: Ukraine’s Next-Generation 
+Drone Fleet Is Packed with Upgrades,” Forbes (website), March 1, 2023, https://www.forbes.com/sites 
+/davidhambling/2023/03/01/ukraines-next-generation-drone-fleet-enhances-capabilities/.
+--- 페이지 7 ---
+In Focus
+Halem  27
+The Ukrainian battlespace is extraordinarily congested. A 20-kilometer 
+zone around the contact line contains extensive trench lines, ground-based 
+electronic warfare (EW ) systems, air defenses, artillery batteries, 
+and counter-battery radars. Moreover, most Ukrainian UAS are dual 
+use, making them operationally intuitive and cheap but decreasing their 
+resilience to electronic warfare and the quality of their sensors and optics.  
+Copter optics, with their roughly 20-kilometer daytime range,  
+create a 30-kilometer ISR range. Major Russian targets are beyond this  
+bubble, however, given Russia’s adjustment of logistics after its  
+2022 deployment of the high-mobility artillery rocket system (HIMARS).21 
+While large unmanned aerial systems have optics that can identify targets 
+40–80 kilometers away—and much better range than copter UAS— 
+they are loud and vulnerable to point air defense and EW. Even large  
+copter UAS are too loud for night operations, but smaller copters with worse 
+optics limit the range of artillery.
+To compensate for electronic warfare, Ukrainian units deploy all unmanned 
+aerial systems, barring first-person view drones, with four-man teams 
+comprised of a driver or scout, drone operator, navigator, and gimbal operator.22 
+Since UAS are jammed so often, the crew must track movements manually 
+to prevent losses from inattention.23 Experienced UAS operators are the most 
+valuable military occupation specialty to the ZSU, bar combat medics, 
+and they lose far fewer unmanned aerial systems than the publicly quoted 
+average would imply.24
+Deep Strike and Fires Corridors in Ukraine
+While skilled operators can reduce EW disruption to UAS, the range question 
+remains. An effective RSC must be capable of facilitating strikes across 
+the battlespace, particularly into the enemy’s depth. Fighting deep 
+is critical in the Ukrainian case because of the need for a breakthrough 
+and Russian fires volumes.
+21.  Jack Watling and Nick Reynolds, Meatgrinder: Russian Tactics in the Second Year of Its Invasion 
+of Ukraine, RUSI Special Report (London: RUSI, May 19, 2023), 11, https://static.rusi.org/403-SR 
+-Russian-Tactics-web-final.pdf.
+22.  Per the author’s interviews (March 24, 25, and 27, 2023), two-man teams are uncommon. They 
+are restricted to medium UAS and highly competent operators.
+23.  The author’s interviews (March 25, 27, and 30, 2023) indicated the majority of losses came from 
+inattentive operators.
+24.  The 
+author’s 
+interview 
+subjects 
+emphasized 
+both 
+military 
+occupation 
+specialties.  
+Particularly in drone-specialist ISR units and artillery formations, UAS losses are extremely low. 
+Moreover, by recovering hostile or lost friendly unmanned aerial systems, units can augment numbers 
+over time. The author found that an average loss rate of one unmanned aerial system per month 
+was typical for his subjects, though once again, line unit UAS losses are dramatically higher. The RUSI 
+team, from which the 10,000-per-month figure generally stems, has also found the same need 
+for contextualization.
+--- 페이지 8 ---
+28  Parameters 53(4) Winter 2023–24
+Beyond the first few weeks of fighting, particularly around Kyiv, 
+thickening front lines have defined the war, necessitating a breakthrough.25 
+Conducting or foiling a breakthrough requires winning the deep fight.26 
+Breaking through a thickly defended front line and defending it requires 
+extreme effort.27 A sophisticated logistical system is crucial because artillery 
+amplifies the role of logistics, which urban combat amplified again.28 
+On the offensive, artillery is needed to suppress and destroy defensive 
+positions to enable an armored breakthrough.29 On the defensive, artillery 
+is needed to blunt attacking spearheads and ultimately destroy them.  
+Deep strikes are needed both to starve the front line of shells, disrupt electronic 
+assets, and suppress defender command-and-control (C2) nodes and to disrupt 
+the attacking force.
+The difficulty, therefore, is applying precision at distances of 30–100  
+kilometers: the Ukrainian armed forces must sequence fires to maximize precision 
+effects and avoid Russian counter-battery fire. The solution is to create what 
+can be termed fires corridors, gaps in the electronic warfare and antiair warfare 
+(AAW)defensive system that UAS and long-range fires can exploit.30
+In Ukraine, US space-based capabilities and commercial satellite 
+imaging help the ZSU identify targets.31 Suppressing or destroying 
+the Russian EW-AAW blanket that defends the front line, however, currently 
+requires unmanned aerial systems simply for their imaging responsiveness, 
+even if these civilian-specification models are vulnerable to Russian jamming.
+25.  Dan Rice, “The Untold Story of the Battle for Kyiv,” Small Wars Journal (website), May 31, 2022, 
+https://smallwarsjournal.com/jrnl/art/untold-story-battle-kyiv.
+26.  Jonathan Bailey, “The Birth of the Modern Style of Warfare in the Great War,” Defence Viewpoints  
+from the UK Defence Forum (website), July 8, 2014, https://www.defenceviewpoints.co.uk/military 
+-operations/the-birth-of-the-modern-style-of-warfare-in-the-great-war. See also Stephen Biddle, Military 
+Power: Explaining Victory and Defeat in Modern Battle (Woodstock, UK: Princeton University Press, 
+2004), 29–39.
+27.  Georgii Samoilovich Isserson, “The Foundation of Deep Strategy,” in Deep Operations:  
+Theoretical Approaches to Fighting Deep, ed. Jack D. Kem (Fort Leavenworth, KS: Army University 
+Press, 2021), 15–23, https://www.armyupress.army.mil/Portals/7/combat-studies-institute/images/LSCO%20
+DeepOps%20book%20interactive%20with%20cover%20spread%2012Nov21.pdf.
+28.  Alexander Grinberg, “Glass Cannons from Grozny to Mariupol: What Should the US Military 
+Learn from Russia’s Use of Artillery in Protracted Urban Sieges?,” Modern War Institute (website), 
+February 13, 2023, https://mwi.usma.edu/glass-cannons-from-grozny-to-mariupol-what-should-the 
+-us-military-learn-from-russias-use-of-artillery-in-protracted-urban-sieges/.
+29.  Kyiv Independent News Desk, “News Feed – Zaluzhnyi: Russia Uses up to 60,000 Rounds 
+of Ammunition Daily,” Kyiv Independent (website), August 16, 2022, https://kyivindependent.com 
+/zaluzhnyi-russia-uses-up-to-60-000-rounds-of-ammunition-daily/.
+30.  Zabrodskyi et al., Preliminary Lessons, 3.
+31.  David T. Burbach, “Airpower after Ukraine: Early Lessons from the Russia-Ukraine 
+War as a Space Conflict,” Atlantic Council (website), August 30, 2022, https://www 
+.atlanticcouncil.org/content-series/airpower-after-ukraine/early-lessons-from-the-russia-ukraine 
+-war-as-a-space-conflict/. See also Ariel E. Levite, Integrating Cyber into Warfighting: Some Early 
+Takeaways from the Ukraine Conflict (Washington, DC: Carnegie Endowment for International 
+Peace, April 18, 2023), 6, https://carnegieendowment.org/files/Levite_Ukraine_Cyber_War.pdf.
+--- 페이지 9 ---
+In Focus
+Halem  29
+The UAS-ISR complex is remarkably effective at mapping Russian frontline 
+forces, enabling decentralized battery operation. To strike deep, enough fires 
+must be concentrated to suppress or destroy multiple AAW, EW, artillery, 
+and counter-battery assets 10–15 kilometers into Russian-held ground.  
+This action creates a hole in the enemy AAW-EW network through 
+which fixed-wing UAS can be used to identify the target and engage 
+it with precision weapons at 70-plus kilometers. The deeper the target, 
+the longer the window must be.
+Fires corridors allow Ukraine to conduct deep strikes at scale, 
+thereby targeting the logistical underpinnings of the Russian military. 
+Indeed, the primacy of the deep fight is the central lesson analysis 
+of the Russia-Ukraine War provides for future combat.
+Ukraine has waged three successful anti-logistical efforts demonstrating  
+the relevance of deep strike. First, Ukraine used a handful of Western-provided  
+HIMARS to derail the summer 2022 Donbas offensive. A limited Ukrainian  
+attack in the forest west of Izyum, the Russian forward supply hub  
+in the Donbas, provided Ukraine an ideal position for HIMARS strikes 
+against Russian logistics and C2 nodes. The effect was almost immediate: 
+after taking Syeverodonetsk and Lysychansk and surging forward toward 
+the Bakhmut-Siversk-Soledar line, Russian forces abruptly halted in the face 
+of Ukraine’s deep strikes. The relevance of deep strike is reinforced by the fact 
+that Russia had continued its advance before the HIMARS campaign began.32 
+Naturally, other factors were relevant here, particularly Ukraine’s choice 
+to commit reserves to Syeverodonetsk, thereby prompting Russian reserve 
+commitments as well.33 Nevertheless, deep strike plays a crucial role.
+Second, in the fall of 2022, Ukrainian deep strikes helped enable the Kharkiv 
+offensive. Along with a deception campaign to reduce Russian force 
+density, long-range strikes disrupted Russian logistics command and control, 
+generating the operational vulnerability Ukraine exploited.34
+32.  Karolina Hird et al., Russian Offensive Campaign Assessment (Washington, DC: ISW,  
+July 24, 2022), https://www.understandingwar.org/sites/default/files/Russian%20Operations%20
+Assessments%20June%204.pdf.
+33.  Kateryna Stepanenko, Mason Clark, and George Barros, Russian Offensive Campaign Assessment 
+(Washington, DC: ISW, June 4, 2022), https://www.understandingwar.org/backgrounder/russian 
+-offensive-campaign-assessment-june-4.
+34.  Franz-Stefan Gady and Michael Kofman, “Ukraine’s Strategy of Attrition,” Survival 65, no. 2  
+(April-May 2023): 10. Although Gady and Kofman do concede that long-range strikes against 
+C2 and logistics degraded Russian responses through three months of careful strikes, they correctly 
+insist upon the broader theater strategic context, Russia’s rotation of quality units, and limited 
+remaining forces in Kharkiv oblast. The point is that an undercurrent of deep strikes prompted other 
+changes that hollowed out Russia’s defenses in Kharkiv, enabling major gains.
+--- 페이지 10 ---
+30  Parameters 53(4) Winter 2023–24
+Third, Ukraine leveraged the unique conditions of the Kherson bridgehead 
+between September and November 2022 to erode the Russian position, 
+ultimately prompting a withdrawal from the Dnieper River’s right bank.  
+Long-range artillery played a decisive role in this campaign, hitting Russian 
+rail and road links to the bridgehead and ultimately hollowing out Russian 
+logistics so thoroughly as to compel a withdrawal.
+In each case, the operative factor was a general hollowing out of enemy capacity.  
+By shortening some aspect of the Russian system—typically Russia’s ability  
+to sustain large-scale forces deployed forward, but also by disrupting the  
+Russian C2 network—Ukraine could compel Russia to roll its forces back,  
+either retreating or halting an offensive.
+As of this writing, Ukraine is on the offensive again. Although there 
+are weeks to months of fighting ahead, the ZSU engaged in another deep-strike 
+campaign that incudes loitering munitions, cruise missiles, and sabotage.35  
+The Russians, however, have responded with a UAS-RSC of their own. 
+Russia’s greatest innovation has been on the counter-battery side.36 
+Russia’s Lancet loitering munitions, cued by the Russian UAS-ISR system 
+linked to counter-battery radars, attack Ukrainian artillery as Ukraine 
+seeks to create fires corridors. The Lancet flies fast enough to evade most 
+Ukrainian short-range air-defense weapons. Ukraine’s response has been 
+better dispersion as well as disruption to ISR-focused unmanned aerial 
+systems, alongside a probable reduction in the number of towed artillery 
+pieces deployed near the front line. Russian and Ukrainian RSCs are therefore 
+interacting in a fluid manner.
+Winning the deep fight need not entail completely paralyzing enemy 
+C2 and logistics, though paralysis is ideal on the offensive. The objective, rather, 
+is to impose costs upon enemy logistics. This burden will force the enemy 
+to extend the distance between its major logistics hubs and the front line, 
+complicate transportation, and force the enemy to devote time and resources 
+to defending against deep attack. The result will be a diffusion of enemy 
+resources even after logistical adjustment.
+Russian fires weight has decreased across the front, as the Russian 
+military now struggles to sustain the countrywide bombardment curtain 
+it employed throughout 2022, primarily because deep strikes have forced
+35.  Kyiv Independent News Desk, “News Feed – CNN: Ukraine Starts ‘Shaping Operations’ 
+for Counteroffensive,” Kyiv Independent (website), May 12, 2023, https://kyivindependent.com/cnn 
+-ukraine-starts-shaping-operations-for-counteroffensive/.
+36.  Jack Watling, “Commentary – Ukraine’s Counteroffensive Begins: Shall the Leopards Break Free?,” 
+RUSI (website), June 14, 2023, https://www.rusi.org/explore-our-research/publications/commentary/ukraines 
+-counteroffensive-begins-shall-leopards-break-free.
+--- 페이지 11 ---
+In Focus
+Halem  31
+a logistics redistribution. This change creates additional failure points 
+in the system. Defensive forces in fixed positions receive less materiel.  
+Mobile reserves are exposed to long-range strikes with outsized impact, 
+as incidents like the Makiivka Strike demonstrate.37 Moreover, C2 nodes must 
+be light and mobile, or very well hardened, either requiring more defensive 
+resources or increasing the cognitive load on commanders.
+The Russian logistical system was likely more exposed to pressure than other 
+alternatives because of its lack of truck-based transports, manpower-intensive 
+system, and emphasis on rail transport.38 Yet, the United States has logistical 
+chokepoints as well, in particular, a reliance upon large depots—admittedly 
+much farther from the combat zone than the Russian system— 
+and upon civilian transports that may not be available in wartime.39
+Ukraine’s success has stemmed from an ability to leverage a small number 
+of long-range precision weapons to hit high-value targets in the Russian 
+rear area. Leveraging precision effects requires careful preparation to ensure, 
+in the Ukrainian case, they can be applied through the creation of fires corridors 
+to strike deep. In a competitive duel with Russia’s reconnaissance-strike 
+complex, striking deep allows Ukraine to roll Russian forces back by creating 
+C2 and logistical seams. Ideally, over time, this situation will enable 
+a breakthrough and exploitation.
+Implications for the US Army
+While the Russia-Ukraine War is an illustrative case, it is unique  
+in many respects. Both sides derive their doctrine from similar sources and  
+employ similar or identical weapons. Neither side can break the other’s  
+integrated air defense network—Ukraine for lack of modern airframes, 
+Russia for lack of enough precision-guided munitions—meaning deep strike 
+is primarily a missile-based phenomenon. Russia and Ukraine also field  
+armies with far less overall experience than anticipated before the war,  
+having gone through several rounds of mobilization, making logistical 
+and command centralization all the more appealing and strikes against 
+logistics and C2 nodes more fruitful. Russia has refused to deploy
+37.  Guardian Staff and Agencies, “Explainer – Makiivka Strike: What We Know about the Deadliest 
+Attack on Russian Troops since Ukraine War Began,” Guardian (website), January 4, 2023,  
+https: // www.theguardian.com/ world/ 2023/ jan/ 04/ makiivka-strike-what-we-know-about-the-deadliest 
+-attack-on-russian-troops-since-ukraine-war-began.
+38.  Alex Vershinin, “Feeding the Bear: A Closer Look at Russian Army Logistics and the Fait Accompli,” 
+War on the Rocks (website), November 23, 2021, https://warontherocks.com/2021/11/feeding-the-bear 
+-a-closer-look-at-russian-army-logistics/.
+39.  Michael Trimble and Jobie Turner, “Asymmetric Advantage or Achilles Heel: Logistics in the  
+U.S. Military,” Strategy Bridge (website), June 14, 2022, https://thestrategybridge.org/the-bridge/2022/6/14 
+/asymmetric-advantage-or-achilles-heel-logistics-in-the-us-military.
+--- 페이지 12 ---
+32  Parameters 53(4) Winter 2023–24
+kinetic anti-satellite interceptors, nor is there much available in the open 
+source about satellite jamming, an undeniably relevant factor in future wars. 
+Ukraine and Russia both defend some of the world’s most extensive ground 
+fortifications—in the Ukrainian case, built over years of positional conflict 
+in the Donbas. The US Army should not plan to fight the last war, let alone 
+a war it has not actively fought.
+Ukrainian and Russian UAS-enabled RSCs, however, and the need 
+to conduct deep strikes to attrit an RSC, will only intensify over time 
+as RSCs become more sophisticated. The US Army will likely face near-peer 
+conventional adversaries with a distributed reconnaissance-strike complex that 
+has multiple redundancies and, critically, includes AI to shorten the kill chain.40
+This future RSC will need to be tugged in or disrupted to create opportunities 
+for US land, air, and sea power to deliver the heavy capabilities needed to break 
+an enemy position and achieve a combat decision. The Ukrainians do not face 
+an abstract network that they must attrit but a specific, geographically 
+textured adversary they must hollow out. Much in the way Russian forces 
+that mass too early are extraordinarily vulnerable to a precision strike, 
+so too are the Ukrainian forces at risk. The United States will face a similar 
+type of threat, albeit at a greater degree of sophistication. If it seeks 
+to mass, it must reduce the enemy RSC’s ability to hit concentrated forces— 
+otherwise, the combat power that mass generates will be wasted.
+From this reality stems the need for a fluid reconnaissance-strike 
+complex that includes a distributed ISR system, one that enables the specific 
+application of precision effects to hit RSC nodes in the enemy’s depths.  
+Perhaps penetrators can help, whether this assistance entails an electromagnetic 
+pulse warhead that can knock out jammers or, in the future, directed-energy 
+weapons used for air defense or a fires corridor akin to that of Ukraine. 
+Unmanned aerial systems will almost certainly be part of the solution. 
+As commercial UAS technology develops, small, cheap UAS hardened 
+against some electronic effects will proliferate. Artificial intelligence and edge 
+computing will reduce UAS reliance on GPS and human control, while 
+smaller, higher-quality optics will increase the ability of unmanned aerial 
+systems to operate undetected and identify targets at range. Satellites will also 
+matter, especially microsatellites with advanced sensors.
+The technology, however, is not the point. The Russia-Ukraine War  
+demonstrates the intensity—in materiel, manpower, and cognitive load—
+40.  Amy J. Nelson and Gerald L. Epstein, “Commentary – The PLA’s Strategic Support Force 
+and AI Innovation,” Brookings (website), December 23, 2022, https://www.brookings.edu/articles 
+/the-plas-strategic-support-force-and-ai-innovation-china-military-tech/.
+--- 페이지 13 ---
+In Focus
+Halem  33
+of combat between adversaries with actual RSCs, even if both parties 
+suffer from obvious technical, organizational, and logistical limitations.  
+In a conflict with a near-peer adversary, the United States will likely face 
+a reconnaissance-strike complex with greater range, comprehensiveness, 
+and scale. This network will likely involve units and positions on enemy territory.  
+Ukraine, even with limits on its ability to engage targets within Russia, 
+has managed to fight effectively, but it has been nearly helpless against 
+the Russian strategic-strike campaign. The United States is unlikely to face 
+an adversary it can defeat absent some consideration of strikes on its territory, 
+at least if it hopes to win on a timescale more closely approximating months 
+or years than a decade. Two equally sophisticated RSCs, then, can increase 
+the likelihood of mutual territorial strikes and the potential for escalation.
+Harry Halem
+Harry Halem is a senior fellow at Yorktown Institute and a doctoral candidate 
+in the Department of International Relations at the London School of Economics. 
+His research focuses on the future of conflict, naval strategy, and historical 
+conceptions of operational art.
+--- 페이지 14 ---
+34  Parameters 53(4) Winter 2023–24
+Selected Bibliography
+Biddle, Stephen. Military Power: Explaining Victory and Defeat in Modern Battle.
+Woodstock, UK: Princeton University Press, 2004.
+Freedman, Lawrence. Ukraine and the Art of Strategy. New York: Oxford
+University Press, 2019.
+Isserson, Georgii Samoilovich. “The Foundation of Deep Strategy.”
+In Deep Operations: Theoretical Approaches to Fighting Deep, ed. Jack D. Kem. 
+Fort Leavenworth, KS: Army University Press, 2021.
+Krepinevich, Andrew F. Maritime Warfare in a Mature Precision-Strike Regime.
+Washington, DC: Center for Strategic and Budgetary Assessments, 2014.
+Sterling, Michael J. Soviet Reactions to NATO’s Emerging Technologies
+for Deep Attack. Santa Monica, CA: RAND Corporation, August 1985.
+Vego, Milan. Recce-Strike Complexes in Soviet Theory and Practice.
+Fort Leavenworth, KS: Soviet Army Studies Office, June 1990.
+Watling, Jack, and Nick Reynolds. Meatgrinder: Russian Tactics in the Second
+Year of Its Invasion of Ukraine. London: Royal United Services Institute 
+(RUSI), May 19, 2023.
+Zabrodskyi, Mykhaylo et al. Preliminary Lessons in Conventional Warfighting
+from Russia’s Invasion of Ukraine: February–July 2022. London: RUSI, 
+November 2022.
+41
+Disclaimer: Articles, reviews and replies, and book reviews published in Parameters are unofficial expressions of opinion. The views  
+and opinions expressed in Parameters are those of the authors and are not necessarily those of the Department of Defense,  
+the Department of the Army, the US Army War College, or any other agency of the US government. The appearance of external  
+hyperlinks does not constitute endorsement by the Department of Defense of the linked websites or the information, products,  
+or services contained therein. The Department of Defense does not exercise any editorial, security, or other control over the  
+information you may find at these locations.
+--- 페이지 15 ---
+Reproduced with permission of copyright owner. Further
+reproduction prohibited without permission.

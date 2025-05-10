@@ -112,10 +112,11 @@ def check_dependencies() -> bool:
     
     return True
 
+# main.py 파일에서 사용자 입력 처리 부분 단순화
+
 def main(args: Optional[Dict[str, Any]] = None):
-    print("메인 함수 시작!")
     """
-    군사/국제정치 전문 영어 유튜브 콘텐츠 자동 생성 메인 함수
+    국제관계/지정학/세계사 전문 한국어 유튜브 콘텐츠 자동 생성 메인 함수
     
     Args:
         args: 명령행 인자 또는 직접 입력한 설정
@@ -137,26 +138,24 @@ def main(args: Optional[Dict[str, Any]] = None):
         # 명령행 인자 파싱
         args = parse_arguments()
         
-        # 구성 파일 처리
-        config_file = args.config or DEFAULT_CONFIG_PATH
-        if os.path.exists(config_file):
-            try:
-                with open(config_file, 'r', encoding='utf-8') as f:
-                    config = json.load(f)
-                    logger.info(f"✅ 구성 파일 로드: {config_file}")
-                    
-                    # 명령행에서 명시적으로 지정되지 않은 값만 구성 파일에서 가져옴
-                    for key, value in config.items():
-                        if not hasattr(args, key) or getattr(args, key) is None:
-                            setattr(args, key, value)
-            except json.JSONDecodeError:
-                logger.error(f"❌ 구성 파일 형식 오류: {config_file}")
-            except Exception as e:
-                logger.error(f"❌ 구성 파일 로드 실패: {str(e)}")
+        # 필수 입력 또는 force_input 플래그 확인
+        force_input = getattr(args, 'force_input', False)
+        skip_input = getattr(args, 'skip_input', False)
+        has_required = (hasattr(args, 'topic') and args.topic and 
+                        hasattr(args, 'sources') and args.sources)
         
-        # 키 값이 충분하지 않으면 사용자 입력 받기
-        if not hasattr(args, 'topic') or not args.topic or not hasattr(args, 'sources') or not args.sources:
-            user_data = get_user_input(args.config or DEFAULT_CONFIG_PATH)
+        # 사용자 입력 필요한 경우
+        if (not has_required or force_input) and not skip_input:
+            config_path = getattr(args, 'config', DEFAULT_CONFIG_PATH)
+            
+            # 단순화된 호출 - 예외 처리 포함
+            try:
+                # 매개변수 이름 명시
+                user_data = get_user_input(config_path=config_path, force_input=force_input)
+            except TypeError:
+                # 오류 발생시 인자 없이 호출
+                print("⚠️ 매개변수 오류 발생, 기본 호출로 대체")
+                user_data = get_user_input()
             
             # 사용자 입력 데이터를 args에 병합
             for key, value in user_data.items():
@@ -165,7 +164,7 @@ def main(args: Optional[Dict[str, Any]] = None):
     # 작업 폴더 생성
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     safe_topic = args.topic.replace(' ', '_').replace('/', '_')[:20]
-    project_folder = args.output_dir if hasattr(args, 'output_dir') and args.output_dir else f"output_{timestamp}_{safe_topic}"
+    project_folder = getattr(args, 'output_dir', None) or f"output_{timestamp}_{safe_topic}"
     os.makedirs(project_folder, exist_ok=True)
     
     # 로그 파일 설정
@@ -176,6 +175,7 @@ def main(args: Optional[Dict[str, Any]] = None):
     
     logger.info(f"🚀 프로젝트 시작: {args.topic}")
     logger.info(f"📂 프로젝트 폴더: {os.path.abspath(project_folder)}")
+
     
     try:
         # 2. 소스 텍스트 파싱 (유튜브 포함)
@@ -208,8 +208,8 @@ def main(args: Optional[Dict[str, Any]] = None):
         tasks.append(media_task)
         
         # 5. TTS 생성 (비동기 처리)
-        tts_task = ('tts', generate_tts_content, (script_paths, args.voice, project_folder, args.optimize_tts, args.tts_engine))
-        tasks.append(tts_task)
+        # tts_task = ('tts', generate_tts_content, (script_paths, args.voice, project_folder, args.optimize_tts, args.tts_engine))
+        # tasks.append(tts_task)
         
         # 병렬 처리 실행
         results = {}
@@ -330,9 +330,9 @@ def parse_arguments():
     parser.add_argument('--output-dir', type=str, help='출력 디렉토리')
     parser.add_argument('--parallel-workers', type=int, default=3,
                       help='병렬 처리 워커 수 (기본값: 3)')
-    parser.add_argument('--use-whisper', action='store_true', default=True,
+    parser.add_argument('--use-whisper', action='store_true',
                       help='자막 생성에 Whisper 모델 사용')
-    parser.add_argument('--optimize-tts', action='store_true', default=True,
+    parser.add_argument('--optimize-tts', action='store_true',
                       help='TTS 최적화 사용')
     parser.add_argument('--additional-instructions', type=str, default='',
                       help='스크립트 생성을 위한 추가 지시사항')
@@ -342,8 +342,18 @@ def parse_arguments():
     parser.add_argument('--tts-engine', type=str, default='elevenlabs',
                   choices=['elevenlabs', 'openai'],
                   help='TTS 엔진 선택 (elevenlabs/openai, 기본값: elevenlabs)')
+    parser.add_argument('--skip-input', action='store_true', 
+                      help='사용자 입력 건너뛰기 (구성 파일이나 명령행 인자 사용)')
+    parser.add_argument('--force-input', action='store_true',
+                      help='항상 새로운 사용자 입력 요청 (이전 설정 무시)')
     
-    return parser.parse_args()
+    args = parser.parse_args()
+    
+    # action='store_true' 값 확인 (기본값이 False인 것 확인)
+    print(f"Skip input: {args.skip_input}")
+    print(f"Force input: {args.force_input}")
+    
+    return args
 
 def parse_source_content(sources: List[Any], project_folder: str, parallel_workers: int = 3) -> List[str]:
     """

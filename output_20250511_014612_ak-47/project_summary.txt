@@ -1,0 +1,30 @@
+# 프로젝트 입력 정보 요약
+
+## 기본 정보
+- 주제: ak-47
+- 생성 날짜: 2025-05-11 01:48:19
+- 논리 구조: 서론-본론-결론
+- 스타일: 국제관계/지정학/세계사 전문가
+- TTS 음성: Wyatt
+- 병렬 처리 워커 수: 3
+- Whisper 사용 여부: 예
+- TTS 최적화 여부: 예
+
+## 소스 정보 (5개)
+1. 파일: C:\Users\rinor\Downloads\READ\ak-47\ak-47.txt (타입: txt)
+2. 파일: C:\Users\rinor\Downloads\READ\ak-47\ak47-01.pdf (타입: pdf)
+3. 파일: C:\Users\rinor\Downloads\READ\ak-47\ak47-02.pdf (타입: pdf)
+4. 파일: C:\Users\rinor\Downloads\READ\ak-47\ak47-03.pdf (타입: pdf)
+5. URL: https://en.wikipedia.org/wiki/AK-47
+
+## 생성된 파일
+- longform 스크립트: final_longform_script.txt
+- shortform1 스크립트: final_shortform1_script.txt
+- shortform2 스크립트: final_shortform2_script.txt
+- 미디어 제안: media_suggestions.txt
+
+## 추가 정보
+- 롱폼 스크립트 길이: 529단어
+- 예상 재생 시간: 약 3분
+- 처리 시간: 2분 7초
+- 작업 디렉토리: C:\Github\02_project_opc2\output_20250511_014612_ak-47

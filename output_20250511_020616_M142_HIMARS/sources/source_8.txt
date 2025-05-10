@@ -1,0 +1,447 @@
+
+--- 페이지 1 ---
+In Focus
+A Long, Hard Year:  
+Russia-Ukraine War Lessons Learned 2023
+Michael T. Hackett and John A. Nagl
+ABSTRACT: This special commentary summarizes the major findings 
+and lessons taken from the Russia-Ukraine War integrated research project 
+conducted by members of the US Army War College class of 2024— 
+all subject matter experts on their topics. It outlines seven lessons covering 
+doctrinal, operational, technological, strategic, and political issues related 
+to the second year of the war, including Russia’s use of mercenaries; 
+the need to create a culture of mission command; ways to deal with 
+a transparent battlefield because of persistent, ubiquitous surveillance; 
+air superiority as a prerequisite for successful combined arms ground 
+offensives; and changes to the intelligence and information domains.
+Keywords: Russia-Ukraine War, Winston Churchill, mercenaries, 
+mission command, air superiority
+B
+ritish Prime Minister Winston Churchill, in his famous “Blood, 
+Toil, Tears and Sweat” inauguration speech, prepared his nation 
+for the long and difficult fight ahead, one which would bring 
+victory over the Axis powers, but only after arduous sacrifice and suffering 
+by the British people. His words resound through the ages:
+We have before us an ordeal of the most grievous kind. 
+We have before us many, many long months of struggle 
+and of suffering. You ask, what is our policy? I can say: 
+It is to wage war, by sea, land and air, with all our might 
+and with all the strength that God can give us; to wage 
+war against a monstrous tyranny, never surpassed in the dark, 
+lamentable catalogue of human crime. That is our policy. 
+You ask, what is our aim? I can answer in one word: It is victory, 
+victory at all costs, victory in spite of all terror, victory, 
+however long and hard the road may be; for without victory, 
+there is no survival.1
+The second year of the Russia-Ukraine War saw Churchill’s words come 
+to life on the battlefields of eastern and southern Ukraine, with high-casualty 
+battles around Avdiivka and Bakhmut spreading misery and neither side 
+achieving significant gains in territory despite a highly anticipated Ukrainian 
+counteroffensive. Consequently, despite dramatic moments such as the failed
+--- 페이지 2 ---
+42  Parameters 54(3) Autumn 2024
+Wagner mutiny, the second year (February 2023–February 2024) resulted 
+in an apparent stalemate characterized by portions of the line of contact 
+hardening into the entrenched “Surovikin Line” composed of 81 miles of deep 
+trenches around Crimea that are visible from space.
+Despite the static nature of the conflict, one exacerbated by delays in the 
+delivery of weapons systems to Ukraine by international partners, Ukraine has 
+demonstrated remarkable resolve and continues to fight. Students and faculty 
+from the US Army War College previously examined the first year of the 
+Russia-Ukraine War from different angles to understand what the conflict 
+means for the changing character of war and draw lessons that could strengthen 
+US forces. The findings and recommendations from that study are detailed 
+in A Call to Action: Lessons from Ukraine for the Future Force. Highlights are 
+available in an introductory chapter and a Parameters article of the same name.2
+A new team assembled at the US Army War College in fall 2023 examined 
+the second year of the war. While the second year did not provide the same 
+cause for optimism as the first, the battlefield’s blend of conventional warfare 
+and innovative technology in protracted combat revealed new lessons. This 
+special commentary highlights the team’s top findings and analysis, which can 
+inform the US Army Training and Doctrine Command (TRADOC) to equip 
+and train the future force better following the devastating war that continues 
+into a third year.
+Mercenaries:  
+The Double-Edged Sword that Reshaped the Russian Force
+Russia’s increased use of mercenaries, a combat group described by Niccolo 
+Machiavelli as “at once useless and dangerous” and exemplified by the Wagner 
+private military company (PMC), became one of the most visible features 
+of the second year of the war. For Russia, the use of these companies meets 
+several objectives:
+ they can claim deniability and do not strain 
+Russian national resolve,
+	 they allow for aggressive assault tactics with little 
+to no consideration of casualty costs, and
+	 they permit Russian units to employ tactics unconstrained 
+by internationally accepted ethical norms.
+--- 페이지 3 ---
+In Focus
+Hackett and Nagl  43
+On the national resolve front, Wagner leader Yevgeny Prigozhin summed 
+it up to skeptical audiences in Russia by stating that “those who do not want 
+PMCs or prisoners to fight, who talk about this topic, who do not want 
+to do anything and who, as matter of principle, do not like this topic, send your 
+children to the front. . . . Either PMCs and prisoners, or your children— 
+decide for yourself.”3
+From a battlefield perspective, the Wagner forces, supplemented 
+by a massive infusion of prisoners, turned to assault units and tactics that 
+featured prominently in the battle for Bakhmut and influenced Russian forces 
+to establish “Storm-Z” units employed later in the battle of Avdiivka. These 
+operations divided prisoner frontline troops (zeki) from founding members 
+of Wagner (osvovy), with continuous assaults that resulted in 60 percent 
+casualty rates among zeki units but eventually led to Russia’s capture 
+of Bakhmut in July 2023. Wagner absorbed those casualties because of its 
+force structure. As one of the Ukraine team’s researchers observed, “Losses 
+did not reduce the combat readiness of Wagner units because commanders, 
+operators of heavy and specialized weapons, reconnaissance, and command 
+remained a constant element, not participating in the assaults.” The ease with 
+which private military companies adopt flexibility with the Law of Armed 
+Combat, including assaulting local civilians and the high-casualty assault tactics 
+disseminated into the regular Russian army, has left a legacy that has outlasted 
+Prigozhin’s failed mutiny in July 2023. These changes in force structure and 
+tactics suggest that the United States and its allies must prepare for the unique 
+challenges of fighting “stateless” proxy forces like Wagner in future conflicts.4
+The Future of Effective Combat:  
+Distributed, Decentralized, and Adaptive
+Wagner could push changes in force structure that the Russian military was 
+slow to adopt. With the incorporation of PMC elements into the regular Russian 
+army following Prigozhin’s mutiny and subsequent death, the “Storm-Z” structure 
+and assault tactics became normalized in the Russian military. Russia continued 
+to centralize its command and control over units on the battlefield, which 
+gave Ukraine an advantage. In the second year of the war, Russia maintained 
+a high level of control over forces with minimal subordinate initiative (mission 
+command), unsurprising given the low level of unit training provided to Russian 
+soldiers and the lack of trust that undermined unit cohesion. While Russian 
+centralized command and control was effective in defensive positions, it proved 
+catastrophic during offensive operations.
+--- 페이지 4 ---
+44  Parameters 54(3) Autumn 2024
+Ukrainian forces, meanwhile, adopted Western-style mission control in theory. 
+In practice, however, they struggled to scale up mission control operations, 
+given poorly trained staff at the battalion and brigade levels—a structural and 
+cultural problem yet to be unwound. Developing this level of trust is woven into 
+training at every echelon through TRADOC and, given the expected challenges 
+of communication and isolation in the future battlefield, the military should 
+redouble those efforts.5
+This form of distributed operations was critical in fires direction / clearance 
+and public information operations. Fires, long the “King of Battle,” have proven 
+pivotal to Ukraine’s asymmetric response to Russia’s numerically superior force, 
+with Western systems like the high-mobility artillery rocket system (HIMARS) 
+allowing Ukraine to strike deep behind Russian lines. Beyond the weapons 
+systems, the decentralization of fire direction and clearance processes with 
+technologies like the Ukrainian software Kropyva have enabled faster response 
+times, as have the greater dispersion of artillery assets for survivability against 
+counter-battery fire and loitering munitions.6
+Likewise, Ukraine’s decentralization of public information operations has 
+been pivotal to shoring up resolve in Ukraine and among Western partners 
+and countering Russian disinformation and misinformation. Ukraine’s decision 
+to afford more flexibility to its officials to speak openly and authentically has 
+resonated with audiences and built crucial national support for difficult demands 
+like mobilization. The Department of Defense—and the US government more 
+broadly—would benefit from a similar approach of structured advocacy and 
+investment in new information technologies.7
+Finally, a new focus on the US Joint Force as an adaptive learning organization 
+must join these distributed operations. As Russia and Ukraine grapple with 
+the harsh realities of modern war, the margin for error has become increasingly 
+narrow, making the ability to innovate and adapt swiftly a strategic advantage 
+and necessity. The accelerating pace of technological change presents a unique 
+challenge for military organizations—including our own—that are hierarchical 
+and resistant to change. The highly volatile and fluid environment of the 
+Russia-Ukraine War underscores this challenge. It demonstrates the value 
+of increased investment in social capital and a federated approach to innovation 
+and adaptation, flexibility that helped Ukraine adapt quickly to a swiftly changing 
+operating environment.8
+In the past, the US Army adopted this approach. Dedicating units 
+to adaptability (such as Global War on Terror–era organizations like the Rapid 
+Equipping Force and the Asymmetric Warfare Group) enabled rapid adaptation 
+and fostered the capability to develop bottom-up solutions to counter asymmetric
+--- 페이지 5 ---
+In Focus
+Hackett and Nagl  45
+threats. The US military should reconstitute both organizations and others 
+like them that were discontinued to enable the flow of knowledge across the 
+enterprise and accelerate the learning process. As our research team’s innovation 
+and adaptation expert observes, truly embracing innovation and adaptation 
+requires leadership, dedicated resources, formal and informal networks, and 
+a Department of Defense culture that prioritizes continuous innovation and 
+creativity supported by policies encouraging personnel to question, observe, 
+network, and experiment at all leadership levels.9
+Back to the Trenches
+As the war ground to a stalemate in the past year, trench warfare— 
+not seen at this scale in Europe since World War I—presented new challenges 
+to maneuver and protection and reinforced the critical role fires will play in future 
+wars. Entrenched fortifications around Crimea, and those protecting the “land 
+bridge” occupied territories of southern Kherson, Zaporizhzhya, and Donetsk 
+oblasts along the Sea of Azov, offer lessons in continuity and change should the 
+United States return to conventional large-scale combat operations after years 
+of counterterrorism and counterinsurgency operations.
+The conflict has offered a few lessons in the field of maneuver. First, 
+combined arms operations at echelon remain the most effective means of seizing 
+terrain and destroying opposing forces in land combat. They are complex, and 
+planners cannot assume their success. Good combined arms doctrine exists 
+and must remain central to leader development and training. Second, the 
+utility of unmanned systems in land combat is nascent; their full potential 
+is unrealized, and they could fundamentally change the logic of tactical risk. 
+Unmanned systems are proving effective at augmenting current defensive 
+practices for stationary armies but have not yet proven their worth in large 
+maneuvers or reached full value as offensive tools with unique functions. Finally, 
+battlefield transparency is deadly. The Russian and Ukrainian armies are adjusting 
+to account for the probability of being seen by threat technology that reduces 
+an organization’s ability to mass offensively or to survive while massed defensively. 
+Counterintuitively, techniques that enable survival on a transparent battlefield 
+also undermine combined arms fundamentals; to preserve combined arms’ value, 
+the enterprise must develop technological solutions that negate transparency.10
+Russian defensive fortifications have brought Joseph Stalin’s famous line 
+“quantity has a quality all of its own” to the modern battlefield. Russia’s use 
+of mass when employing thousands of antipersonnel and anti-tank land 
+mines to reinforce well-constructed defensive obstacles foreshadows
+--- 페이지 6 ---
+46  Parameters 54(3) Autumn 2024
+challenges US Army forces will face in ground combat. As our protection 
+research team concludes:
+As techniques for clearing obstacles have not evolved 
+in the past half-century, the U.S. Army should explore 
+other ways to overcome the challenges of deep, 
+reinforced obstacles. This approach should be mirrored 
+in electronic warfare (EW) protection, merging offensive 
+and counter-drone efforts and co-locating activities 
+where possible. Machine vision technology also stands 
+to dramatically change survivability operations, driving 
+a need for more and better decoys and incentivizing tactics 
+that confuse algorithms, not just suppress signatures. In this 
+area, the Army should establish more formal programs that 
+can better judge decoy technology against the latest threats 
+and accelerate experimentation at its training centers. 
+By tackling these challenges now, the Army might save 
+in future conflict the year that Ukraine lost in mounting 
+an effective counteroffensive.11
+Additionally, fires are pivotal to countering conventional and EW trench 
+warfare. The US Army should integrate these capabilities into strike packages 
+to counter enemy jamming of precision munitions and drones, revive the use 
+of camouflage netting and decoys, and limit electronic signatures when static 
+to avoid detection. Based on ground experience in Ukraine, the US Army should 
+develop a “suppression of enemy electronic warfare” approach like the one used 
+to suppress enemy air defenses.12
+By Air, by Sea
+As they had in the first year of the war, multidomain operations were 
+a crucial element in the second year of the war. By land, air, and sea, Ukraine 
+brought the fight to Russia in asymmetrical ways that will shape combat for 
+years to come. Perhaps the single most significant lesson learned from the 
+Russia-Ukraine War is that air superiority is still an essential prerequisite 
+to enable combined-arms maneuver. In the air domain, offense is the dominant 
+form of warfare and vital to gaining air superiority. Two years into the war, 
+however, neither Russia nor Ukraine gained air superiority and instead focused 
+on defensive tactics of air denial. These air-denial strategies create air parity, 
+where the air domain is either neutral or contested, and neither side controls 
+it. Air parity creates trench warfare in the sky and, subsequently, trench warfare 
+on the ground. We conclude that defensive air-denial strategies are not winning
+--- 페이지 7 ---
+In Focus
+Hackett and Nagl  47
+strategies, nor will they gain air superiority. They should only be used out 
+of necessity until returning to the offense.
+In a contested air defense environment, the United States can no longer 
+take air superiority for granted. This shift is important for the US military; after 
+years of fighting with air supremacy, the Joint Force has forgotten many of its 
+capabilities and doctrines learned from previous air campaigns. Our research 
+team’s review of air operations in Ukraine in 2023 offers lessons for the Joint 
+Force, including the need for training to air parity conditions, convergence and 
+synchronization of Joint Forces to conduct multidomain offensive counter-air 
+operations, improving passive and active defensive counter-air tactics, executing 
+rapid and survivable kill chains at scale, exploring unmanned technologies, and 
+ensuring adequate stockpiles of war materiel. These lessons should be reemphasized 
+and codified into service doctrine and the Joint Warfighting Concept to ensure 
+US capabilities to gain and maintain air superiority in future conflicts.13
+These airpower lessons also apply to NATO, which must enhance its 
+offensive and defensive counter-air operations by improving its situational 
+awareness, resilience, interoperability, and innovation. Ukraine has 
+demonstrated that robust air and missile defenses can impact an overall 
+campaign and that air denial can be an effective interim solution—specifically 
+for NATO members that lack offensive air capabilities—before NATO can 
+bring its full offensive airpower to bear.14
+Ukrainian operations in the maritime domain also provided important lessons. 
+In the second year of the war, the rise of alliance capabilities (such as Finland and 
+Sweden joining NATO and the Ukrainian Marine Corps separation from the 
+Ukrainian Navy) significantly influenced the conflict in the Black Sea and Sea 
+of Azov region. Likewise, 2023 maritime operations illustrated the need for the 
+US Army, the US Marine Corps, and the US Navy to update doctrine to address 
+warfare in deep blue, brown, and green water zones. Ukraine’s effective use 
+of smaller, more agile vessels and integration of fires and unmanned aerial systems 
+to target and strike large Russian warships offers valuable insights into the types 
+of vessels and technology worth US research and investment.15
+The Battle for Information Advantage
+The Russia-Ukraine War affords vital insights into how future conflicts 
+will be influenced by the abundance of digital information and the maturation 
+of artificial intelligence. For US Army Intelligence, a key aspect of the conflict 
+is the emergence of an ecosystem of intelligence-like commercial services. 
+Companies like Palantir, Planet Labs, BlackSky Technology, and Clearview 
+AI are driving this ecosystem forward. Ukraine embraces these actors and
+--- 페이지 8 ---
+48  Parameters 54(3) Autumn 2024
+harnesses the potential of their services to make sense of ever-increasing amounts 
+of information. Artificial intelligence is a critical development area, evident 
+in applications such as targeting and battle tracking, facial recognition,  
+voice recognition and translation, data management, autonomous flight, 
+counter-disinformation efforts, and cybersecurity. Our intelligence team suggests 
+four implications for US forces:
+ First, the Russia-Ukraine War demonstrates the military 
+significance of technological trends shaping the operational 
+environment; even if the US Army intelligence enterprise 
+chooses not to adopt them, they are available to allies, 
+partners, and adversaries. 
+	 Second, it shows how low-cost sensors and nodes 
+can be integrated at the tactical and operational levels as part 
+of a persistent and resilient collection network. 
+	 Third, it shows how the US Army can leverage unclassified 
+information sources to foster integration with allies 
+and partners. 
+	 Fourth, it reveals the versatility of unclassified information 
+sources in terms of improving intelligence analysis, 
+stimulating innovation, and forging connections with domestic 
+and foreign audiences.16
+The cyber domain has proven to be another critical battlefield for information 
+advantage. The offensive cyber capabilities by Russia and Ukraine have 
+demonstrated that cyber operations in armed conflict are becoming more 
+destructive, emphasizing the need for robust cyber defense. As with fires, 
+protection, and intelligence operations, AI-enabled cloud infrastructures have 
+proven critical to cyberspace defense and cybersecurity—and, as with intelligence 
+operations, are best achieved through the collaborative efforts of government with 
+industry and international partnerships. Our cybersecurity team observes:
+Ukraine’s cyber defense effort would not have been nearly 
+as successful had it not been for the voluntary intervention 
+of large US-based technology firms such as Google, 
+Microsoft, Amazon, SpaceX, and several other technology 
+companies. These corporations, however, intervened in the 
+Russia-Ukraine War at a high cost to those organizations. 
+This national collaboration can be improved and repeated 
+with proper planning, funding, and policy development.
+--- 페이지 9 ---
+In Focus
+Hackett and Nagl  49
+Future cybersecurity strategies need to formalize private 
+and commercial-sector contributions.17
+The Future of Warfare—and Collective Security in Europe
+Beyond the lessons learned outlined in this special commentary, how the 
+war continues—and eventually ends—will be pivotal to European security 
+and US national interests overseas. Continued security assistance from the 
+United States and its allies—and unambiguous signaling on allied resolve—
+will be critical to bolster Ukrainian military efforts to roll Russia back and 
+give it a stronger hand at the bargaining table as the war moves toward 
+termination. Reaching war termination while Ukraine maintains maximalist 
+war aims (recovering all territory occupied by Russia, including Crimea) 
+would require a significant setback to Russian resolve. While Russia currently 
+maintains an advantage in that regard, its resources are not absolute. As one 
+of our researchers notes, its “artificially inflated economy, high inflation, 
+shrinking population, growing discontent, and propensity to take significant 
+losses for marginal gain” may eventually force Russia to negotiate. From 
+Ukraine’s perspective, any war termination agreement must consider a postwar 
+Ukraine that has improved its security capacity, economic health, and political 
+stability and be anchored firmly into transatlantic institutions such as NATO and 
+regional associations in Eastern and Central Europe.18
+As it has been since the war began in February 2022, continued military 
+and diplomatic support by Ukraine’s partners is critical. Some of the territory 
+regained by Ukraine can be attributed to the battlefield effects of US- and 
+NATO-provided systems (such as HIMARS and Leopard tanks) that showed 
+support may tip the balance in Ukraine’s favor. Providing weapons systems 
+from many donor countries posed logistical challenges. As our research 
+team’s sustainment expert observes, the challenges faced by Russia and 
+Ukraine have reiterated the need for the United States to “work across the 
+whole of government and industrial base to build resiliency in the production 
+of equipment and munitions to ensure the ability to increase production to the 
+scale and in time required, maintaining a competitive advantage and ensuring 
+secure supply chains in the future.” Nearly as important as the weapons 
+themselves, unified, unambiguous messaging on the systems as an enduring 
+commitment to Ukraine is crucial to challenging Russia’s resolve. Where 
+tentative US signaling has so far managed escalation with Russia, it runs the risk 
+of undermining the credibility of US threats, commitments, and assurances in the 
+long run.19
+Finally, this grueling year of the war reinforced the role that genuine leadership 
+plays for morale and direction. As our research team’s resiliency expert concludes,
+--- 페이지 10 ---
+50  Parameters 54(3) Autumn 2024
+Ukraine remained resilient against Russia’s onslaught through its fabric of national 
+identity, one knit together, at least partially, through its long history of generational 
+trauma inflicted by its neighbor. Volodymyr Zelensky “leveraged that national 
+identity and trauma to mobilize not only his military and fellow Ukrainians  
+to resist . . . but also the western world to provide much needed training, funding, 
+weapons, and equipment.”20
+The future Joint Force will require the sophisticated weapons, doctrine, training 
+that TRADOC affords, and national will and resolve to fight and win the next 
+war—one that may be as prolonged and arduous as the second year of this conflict 
+has been for Ukraine. By studying the lessons observed, the US Armed Forces will 
+be better prepared to deter and, if necessary, win that fight.
+Michael T. Hackett
+Michael T. Hackett is a foreign service officer at the US Department of State 
+and served as the chief of staff for the integrated research project that studied 
+the second year of the Russia-Ukraine War. He is a distinguished graduate 
+of the US Army War College class of 2024.
+John A. Nagl
+John A. Nagl, the director of the Russia-Ukraine War integrated research 
+project, is a retired Army officer and a professor of war-fighting studies 
+at the US Army War College.
+--- 페이지 11 ---
+In Focus
+Hackett and Nagl  51
+Endnotes
+1.  Winston Churchill, “Blood, Toil, Tears and Sweat” (speech, House of Commons, London,  
+May 13, 1940), https://winstonchurchill.org/resources/speeches/1940-the-finest-hour/blood-toil-tears 
+-sweat/. Return to text.
+2.  John A. Nagl and Katie Crombe, A Call to Action: Lessons from Ukraine for the Future Force  
+(Carlisle, PA: US Army War College [USAWC] Press, 2024), https://press.armywarcollege.edu 
+/monographs/968/; and Katie Crombe and John A. Nagl, “A Call to Action: Lessons from Ukraine 
+for the Future Force,” Parameters 53, no. 3 (Autumn 2023), https://press.armywarcollege.edu/parameters 
+/vol53/iss3/10/. Return to text.
+3.  Niccolo Machiavelli, The Prince (New York: Dover 1992), 31; and Kateryna Tyshchenko,  
+“Either Prisoners or Your Children – Yevgeny Prigozhin on Recruiting Prisoners for the War 
+in Ukraine,” Ukrainska Pravda (website), September 15, 2022, https://www.pravda.com.ua/eng 
+/news/2022/09/15/7367677/. Return to text.
+4.  Rasmus Solaas, “Wagner’s Way of War and Putin’s Ephialtes” (Strategic Research Paper [SRP] 
+USAWC, Carlisle, PA, 2024), 16. Return to text.
+5.  Joe Junguzza, “Mission Command as a Key Operational Advantage in the Russo-Ukraine 
+War” (SRP, USAWC, Carlisle, PA, 2024); and Joe Junguzza and Kelly Lelito, “What National 
+Culture Teaches Us about Mission Command,” Small Wars Journal (website), March 4, 2024,  
+https://smallwarsjournal.com/jrnl/art/what-national-culture-teaches-us-about-mission-command. 
+Return to text.
+6.  James “Jay” Johnson, Michael Tumlin, and Elijah Ward, “Russia-Ukraine War: Fires Lessons 
+Learned” (SRP, USAWC, Carlisle, PA, 2024). Return to text.
+7.  Alex Tignor, “Public Affairs and Information Warfare Lessons Learned from the Russia-Ukraine 
+War” (SRP, USAWC, Carlisle, PA, 2024). Return to text.
+8.  John A. Nagl, Learning to Eat Soup with a Knife: Counterinsurgency Lessons from Malaya and  
+Vietnam (Chicago: University of Chicago Press, 2004). Return to text.
+9.  Michael C. Haith, “Innovation and Adaptation: Assessing the ‘Adaptive Space’ of the Russian 
+and Ukrainian Militaries” (SRP, US Army War College, Carlisle, PA, 2024). Return to text.
+10.  Chris Brawley, John Gabriel, and Aaron Morrison, “Russia, Ukraine, and Biddle’s Modern 
+System” (SRP, USAWC, Carlisle, PA, 2024). Return to text.
+11.  Sean Shields and Matthew Schmunk, “Protection: Lessons Learned from the Russia-Ukraine 
+War in 2023” (SRP, USAWC, Carlisle, PA, 2024). Return to text.
+12.  Johnson, Tumlin, and Ward, “Russia-Ukraine War.” Return to text.
+13.  Marcus Antonini, “The Russia-Ukraine Air War: Old Vodka in a New Bottle” (SRP, USAWC, 
+Carlisle, PA, 2024). Return to text.
+14.  Hardi Lammergas, “Ukraine’s Air Power Strategy in Russia-Ukraine War: A Model of Success 
+for NATO?” (SRP, USAWC, Carlisle, PA, 2024). Return to text.
+15.  E. Saúl Manzanet, “Maritime Lessons for the U.S. Army” (SRP, USAWC, Carlisle, PA, 2024). 
+Return to text.
+16.  Benjamin Iverson and Michael Cookey, “New Frontiers in Intelligence: Ukraine’s Commercial 
+Intelligence Ecosystem” (SRP, USAWC, Carlisle, PA, 2024). Return to text.
+17.  Alex Peake and Marcus Jones, “Ukraine IRP AY24 – Cyberspace” (SRP, USAWC, Carlisle, PA, 
+2024). Return to text.
+18.  Brian Scicluna, “The Russia-Ukraine War: Closer to Peace or More War” (SRP, USAWC, 
+Carlisle, PA, 2024), 20–21; and Andranyk Hasparian and Marko Nikituk, “Ukraine’s Postwar  
+Future” (SRP, USAWC, Carlisle, PA, 2024). Return to text.
+--- 페이지 12 ---
+52  Parameters 54(3) Autumn 2024
+19.  Troy A. Wacaser, “Lessons from Russia-Ukraine War: Sustainment to Supply and Sustain 
+the Fighting Force of the Future” (SRP, USAWC, Carlisle, PA, 2024), 26–27; and Michael T. Hackett, 
+“Lessons from Ukraine: Coercive Diplomacy and the Reluctant Provider Approach” (SRP, USAWC, 
+Carlisle, PA, 2024). Return to text.
+20.  Kyle R. Yates, “Ukrainian Resilience in the Russia-Ukraine War” (SRP, USAWC, Carlisle, PA, 
+2024). Return to text.
+Disclaimer: Articles, reviews and replies, review essays, and book reviews published in Parameters are unofficial expressions of opinion. 
+The views and opinions expressed in Parameters are those of the authors and are not necessarily those of the Department of Defense, 
+the Department of the Army, the US Army War College, or any other agency of the US government. The appearance of external 
+hyperlinks does not constitute endorsement by the Department of Defense of the linked websites or the information, products, 
+or services contained therein. The Department of Defense does not exercise any editorial, security, or other control over the information 
+you may find at these locations.
+--- 페이지 13 ---
+Reproduced with permission of copyright owner. Further
+reproduction prohibited without permission.

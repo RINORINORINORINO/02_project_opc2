@@ -1,0 +1,34 @@
+# 프로젝트 입력 정보 요약
+
+## 기본 정보
+- 주제: M142 HIMARS
+- 생성 날짜: 2025-05-11 02:09:13
+- 논리 구조: 서론-본론-결론
+- 스타일: 국제관계/지정학/세계사 전문가
+- TTS 음성: echo
+- 병렬 처리 워커 수: 3
+- Whisper 사용 여부: 예
+- TTS 최적화 여부: 예
+
+## 소스 정보 (9개)
+1. URL: https://en.wikipedia.org/wiki/M142_HIMARS
+2. 파일: C:\Users\rinor\Downloads\READ\M142_HIMARS\himars_research.txt (타입: txt)
+3. 파일: C:\Users\rinor\Downloads\READ\M142_HIMARS\himars01.pdf (타입: pdf)
+4. 파일: C:\Users\rinor\Downloads\READ\M142_HIMARS\himars02.pdf (타입: pdf)
+5. 파일: C:\Users\rinor\Downloads\READ\M142_HIMARS\himars03.pdf (타입: pdf)
+6. 파일: C:\Users\rinor\Downloads\READ\M142_HIMARS\himars04.pdf (타입: pdf)
+7. 파일: C:\Users\rinor\Downloads\READ\M142_HIMARS\himars05.pdf (타입: pdf)
+8. 파일: C:\Users\rinor\Downloads\READ\M142_HIMARS\himars06.pdf (타입: pdf)
+9. 파일: C:\Users\rinor\Downloads\READ\M142_HIMARS\himars07.pdf (타입: pdf)
+
+## 생성된 파일
+- longform 스크립트: final_longform_script.txt
+- shortform1 스크립트: final_shortform1_script.txt
+- shortform2 스크립트: final_shortform2_script.txt
+- 미디어 제안: media_suggestions.txt
+
+## 추가 정보
+- 롱폼 스크립트 길이: 567단어
+- 예상 재생 시간: 약 3분
+- 처리 시간: 5분 4초
+- 작업 디렉토리: C:\Github\02_project_opc2\output_20250511_020616_M142_HIMARS

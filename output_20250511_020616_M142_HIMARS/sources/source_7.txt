@@ -1,0 +1,454 @@
+
+--- 페이지 1 ---
+126
+Article info
+Received: 25 October 2024; Revised: 18 November 2024; Accepted: 29 November 2024; Available online: 17 January 2025
+Citation: Mirea, A. 2024. ”Impact of new fire support capabilities from a joint functions perspective.” 
+Bulletin of ”Carol I” National Defence University, 13(4): 126-137. https://doi.org/10.53477/2284-9378-24-53
+© „Carol I” National Defence University Publishing House
+This article is an open access article distribted under the terms and conditions of the Creative Commons Attribution (CC BY-NC-SA)
+Impact of new fire support capabilities
+from a joint functions perspective
+The article highlights the usefulness of the operational framework described by the joint functions to 
+understand the impact that an available capability has on the operation from an actional point of view. At 
+the same time, this framework can also be exploited for the purpose of identifying a need for capabilities 
+at the level of the current joint force in order to be able to accomplish the assigned missions. In order to 
+argue the above, I have focused on a fire support capability that has recently become part of the national 
+armed forces structures - the M142 HIMARS (High Mobility Artillery Rocket System). If in the first part 
+of the article I briefly detailed aspects of the operational framework described by the joint functions, in 
+the second part I presented a reasoned perspective on the impact that the capabilities of HIMARS systems 
+have on the way of conceptualizing operations. The article aims to argue, through a concrete example, 
+the possibility of using the operational framework described by the joint functions to understand the full 
+potential of an existing or prospective capability for national armed forces structures.
+Abstract
+Keywords:
+ joint functions; HIMARS systems; fire support; operational framework; capability.
+*”Carol I“ National Defence University, Bucharest, Romania
+e-mail: mirea.adrian82@gmail.com
+LTC Adrian MIREA, Ph.D. Candidate*
+https://buletinul.unap.ro/index.php/en/
+OF ”Carol I” NATIONAL DEFENCE UNIVERSITY
+BULLETIN
+A. Mirea 
+No.4/2024 (vol. 13)
+https://doi.org/10.53477/2284-9378-24-53
+--- 페이지 2 ---
+127
+OF ”Carol I” NATIONAL DEFENCE UNIVERSITY
+BULLETIN
+T
+he integration of new fire support capabilities under current or forward-looking 
+equipping programs also requires, in my view, an understanding of how the 
+military commander can exploit their full potential in operations. Warfighting 
+functions provide a useful context for conceptualizing the way new capabilities can 
+be exploited in a timely manner, according to the operational needs of the force 
+structures that possess or will possess them at a given point in time. Through this 
+article, I have aimed to highlight a useful way to understand the impact of new fire 
+support capabilities of national armed force structures and how the commander 
+and his staff can conceptualize the exploitation of the new capabilities they offer in 
+planning and conducting the operations of their force structures.
+For the completion of this paper, I considered the method of documentary analysis 
+in order to systematically select, review and evaluate public (unclassified) sources of 
+information. In this manner, I aimed to illustrate in a synthesized way a perspective 
+on the potential implications of the integration of new military capabilities at the 
+national level. I considered it sufficiently relevant to address the influence of a limited 
+number of new or prospective military equipment capabilities using the framework 
+in which combat functions manifest since, in my view, the way of constructing the 
+perspective can be extrapolated to other types of equipment, capabilities or services 
+available to national armed forces structures.
+Joint functions are a tool, at the disposal of the commander and his staff, used 
+in particular to ensure a holistic approach to all aspects of an operation and to 
+visualize the specific activities of the force structures available in the operational 
+framework created. Joint functions are basically a description of the capabilities 
+available to the force structures. The concrete requirements of the joint force for 
+the conduct of an operation are determined by the commander through the joint 
+functions (NATO 2022a, 105). From this point of view, the joint functions come 
+to argue the current requirements of a joint force but also the need for armed 
+force structures to have modern capabilities, adapted to the current confrontation 
+environment.
+The operational framework described by the joint functions
+Within both NATO (NATO 2022a, 105) and national perspective (SMG 2011, 70) 
+(SMG 2014, 26) the joint functions are:
+- fires and maneuver;
+- command and control (C2);
+- intelligence;
+- force protection;
+- information operations (INFO OPS);
+- sustainment;
+- civil-military cooperation (CIMIC).
+--- 페이지 3 ---
+128
+A. Mirea 
+No.4/2024 (vol. 13)
+https://doi.org/10.53477/2284-9378-24-53
+It should be noted that, differently from NATO regulations, at the national level 
+there are seven joint functions since manoeuvre is associated with fires in a single 
+function. In the following lines, I will briefly present the main ideas of each of 
+the joined functions in order to address them in the second part of this paper in 
+interpreting the potential impact of new capabilities.
+Fires and manoeuvre (manoeuvre and the application of firepower according to 
+Romanian Army doctrine) integrate, from a national perspective as mentioned, two 
+joint functions according to NATO doctrines. The main purpose of manoeuvre is 
+to obtain an advantageous position in relation to the enemy that would allow the 
+threat or application of force against him. At the operational level, manoeuvre is 
+the process by which combat power is concentrated where it would have a decisive 
+effect in preventing, disrupting or neutralizing enemy operations (NATO 2019, 
+1-21). Although usually manifested physically, the manoeuvre can affect the morale 
+of enemy forces by creating uncertainty, confusion and paralysis. Fire, applied by 
+structures of two or more categories of armed forces, has as its main purpose to 
+influence the enemy’s combat capability. The effects of fires are mainly physical, but 
+they can also affect the psychological and morale components of combat power, thus 
+having an impact on the enemy’s will to fight.
+Command and control (C2) as a joint function is the exercise of authority by the 
+commander over available forces to accomplish the mission. Operations are 
+characterized by centralized planning and direction to ensure unity of effort, and 
+decentralized executive authority down to the lowest echelon capable of effectively 
+employing force structures. A representative element is the command-and-control 
+architecture which, in today’s operating environment, is dependent on capabilities 
+exploiting the increasingly congested and contested electromagnetic spectrum 
+(NATO 2022b, 49).
+The role of intelligence is to ensure a continuous and coordinated understanding 
+of the confrontation environment, supporting the commander by identifying the 
+conditions necessary to accomplish objectives, avoiding undesirable effects and 
+assessing the impact of enemy action, own forces or other actors on the concept of 
+operation. The intelligence joint function is an essential tool for the conduct of the 
+decision-making process as it integrates the activities of the commander, staff and 
+collection elements to generate the required intelligence products resulting from the 
+information cycle (direction-collection-processing-dissemination).
+Force protection is a function focused on eliminating or minimizing the 
+vulnerability of personnel, equipment, facilities, operations and activities 
+to potential threats or hazards, to ensure freedom of action and operational 
+effectiveness in accomplishing the mission. Force protection is a responsibility of 
+commanders at all hierarchical levels but also a fundamental ongoing responsibility 
+of all personnel. Representative aspects of this function include air defence, CBRN
+--- 페이지 4 ---
+129
+OF ”Carol I” NATIONAL DEFENCE UNIVERSITY
+BULLETIN
+(Chemical, Biological, Radiological and Nuclear) defence, military engineering 
+and operational security.
+Information Operations (INFO OPS) as a joint function integrates those actions 
+and activities that produce effects on the understanding and perception, the will to 
+fight and the capabilities of target entities in order to assist in the accomplishment 
+of the set objectives. Key enablers of this function include psychological operations, 
+deception, electronic warfare and physical destruction (SMG 2014, 33).
+Sustainment refers to the coherent provision of the necessary support for the 
+conduct of the operation until mission accomplishment. This support mainly 
+concerns the provision of resources (human and material), medical support and 
+military engineering. Rehabilitation, resupply and regeneration of force elements are 
+outcomes of sustainment and play an important role in maintaining the required 
+level of combat capability. The degree of sustainment has an impact on the tempo, 
+duration and intensity of all types of operations.
+Civil-military cooperation (CIMIC) is the coordination and cooperation of military 
+commanders with civilian actors in the area of operations to accomplish the force’s 
+objectives. Through this function, the commander can create and maintain conditions 
+favourable to the accomplishment of his mission by exploiting moral, material or 
+tactical advantages to the detriment of the enemy. Civil-military interactions are 
+an important tool in achieving strategic and operational level objectives as civilian 
+actors in the area of operations can have an impact on the outcome of the conflict 
+situation or crisis.
+Through the operational framework described by the joint functions, the commander 
+combines the actions and activities of the force structures to generate effects aimed 
+at influencing the enemy’s ability to understand, the level of capabilities available 
+to him and his will to fight. Similarly, the activities and actions of the available 
+force structures produce effects with the potential to influence the enemy’s ability 
+to understand, the level of capabilities and the will to fight from the perspective of 
+friendly forces or other actors in the area of responsibility.
+The capabilities available at force structure level define each of the joint functions 
+but, taken in isolation, these capabilities can be leveraged across multiple 
+functions. The commander, in order to accomplish his mission, may choose from 
+a multitude of available capabilities and combine or integrate them in a number 
+of ways to accomplish the combined functions listed above. He will detail in the 
+operation order the concrete way in which the available forces and assets are to be 
+employed, but they are not exclusively associated with a single function. An action 
+of an available force or capability can and will be exploited within more than one 
+joint function.
+--- 페이지 5 ---
+130
+A. Mirea 
+No.4/2024 (vol. 13)
+https://doi.org/10.53477/2284-9378-24-53
+The impact of new fire support systems
+on performing joint functions
+The practical conditions under which the combat power of a force can be effectively 
+applied are related to an understanding of the conflict nature and the context in 
+which it is manifested, the specific operating environment, the target entities with 
+existing threats, and the capabilities available for friendly structures, the enemy or 
+other actors present in the area of responsibility.
+More often than not, the increased capabilities of modern fire support systems are 
+visualized to have implications in a geographic framework of the action, through the 
+increased maximum range at which they can strike targets - in the deep, close and 
+rear area of operations. An example of this is the equipping of the Romanian Army’s 
+land force structures with M142 HIMARS (High Mobility Artillery Rocket System), 
+which, at first sight, brings to mind the maximum range at which they can engage 
+targets - 70 km (for GMLRS – Guided Multiple Launch Rocket System) and 300 km 
+(for ATACMS – Army Tactical Missile System). An illustrative representation of the 
+impact that the maximum range of fire support systems can have on the operational 
+environment can be found in Field Manual FM 3-0 Operations from 2022.
+This representation shows the influence of the maximum range of fire support 
+systems (available to both sides) on an area of operations perspective at the 
+operational and tactical level.
+Given the full range of possibilities offered by HIMARS (increased range compared 
+to the artillery systems they have replaced, improved accuracy, a greater variety of 
+potential munitions, the advantage of minimizing possible collateral effects, etc.) we
+Figure 1  Actional framework described by the joint functions
+Source: Adaptation from AJP-01 Allied Joint Publication, 2022, p. 106.
+--- 페이지 6 ---
+131
+OF ”Carol I” NATIONAL DEFENCE UNIVERSITY
+BULLETIN
+can consider multiple ways of exploiting these systems in the operational framework 
+described by the joint functions.
+I have presented below a personal perspective on equipping national land forces 
+with HIMARS systems where I have integrated the main aspects in the form of a 
+SWOT analysis.
+Although only certain types of ammunition have been procured nationally (Defence 
+DataBase 2024), this paper has considered HIMARS systems as platforms with the 
+potential to utilize the full range of ammunition available to such systems. Another 
+aspect worth mentioning is that in detailing the perspective of the contribution and 
+integration of HIMARS systems into friendly forces’ joint functions, I have also 
+addressed some aspects regarding the potential for disrupting enemy joint functions.
+Fires and manoeuvre
+The main contribution of HIMARS systems in the joint function fires and manoeuvre 
+is the potential to diminish the combat capability of enemy force structures, either 
+directly by destroying various military equipment or indirectly by influencing the 
+psychological and morale status of enemy troops. The accuracy of the munitions fired
+Figure 2  Doctrinal model of representing front and depth dimensions
+Source: Field Manual FM 3-0 Operations, 2022, p. 6-8.
+--- 페이지 7 ---
+132
+A. Mirea 
+No.4/2024 (vol. 13)
+https://doi.org/10.53477/2284-9378-24-53
+by HIMARS systems can be utilized primarily on fixed targets, such as infrastructure 
+elements used by the enemy or concentrations of forces - in certain directions of 
+effort, at objectives or located in various areas. Considering the variety of munitions 
+(including submunitions) (Defence DataBase 2024) that can be launched by 
+HIMARS systems, we can consider a wide range of effects on the enemy in direct 
+support of friendly manoeuvre structures.
+From the enemy’s perspective, the manoeuvre and joint fire function are disrupted by 
+the ability of HIMARS systems to rapidly execute accurate fire on high-value targets. 
+Thus, by employing submunition strikes (including anti-armour mines) in certain 
+areas or at certain times of the operation, various effects on the enemy’s manoeuvre 
+forces can be achieved such as disrupting offensive actions, and blocking or delaying 
+the introduction of reserves into the battle. I mention here the direct contribution 
+of HIMARS systems in Donbas to blocking the offensive of Russian forces in the
+TABLE NO. 1
+SWOT analysis regarding equipping national land force structures with HIMARS
+--- 페이지 8 ---
+133
+OF ”Carol I” NATIONAL DEFENCE UNIVERSITY
+BULLETIN
+Bakhmut-Kramatorsk direction in July 2022 (Nistorescu 2024, 79). Another aspect 
+of the deployment of HIMARS systems that may disrupt this joint enemy function 
+is also, in my view, the polarizing effect of enemy fire support assets specifically 
+intended for HIMARS detection and counteraction throughout the operation.
+Another important contribution of HIMARS systems to the disruption of the 
+enemy’s joint function fires and manoeuvre is their high proficiency in executing 
+counterbattery fires (Global Defense News 2023). The effectiveness of HIMARS 
+systems in such situations is based on their high mobility, the availability of an 
+automated fire control system, and the ability to execute shoot-and-scoot fire 
+missions, all in conjunction with high accuracy and lethality on target. Another 
+advantage in this area may also be the development and use of munitions with 
+trajectory correction systems immediately after launch, to make it impossible to 
+accurately detect firing positions with counter-battery radars (Kadam 2022).
+Command and control
+The joint function command and control is enhanced by equipping force structures 
+with HIMARS systems in several ways. One of these is the prospect of effective 
+command and control of fire support through the exploitation of IFATDS. The speed 
+with which the automated planning and execution of fire missions is carried out 
+has implications on the ability to react, in the form of counter-battery fire, against 
+enemy fire support systems aimed at disrupting the exercise of command and 
+control at the joint force level. The reaction capability can also be exploited against 
+targets of opportunity arising in the dynamics of action, especially those classified 
+as TST (Time Sensitive Target), where HIMARS may be the only effective capability 
+available to the commander.
+Given the command-and-control function from the enemy’s perspective, HIMARS 
+systems have proven to be particularly effective in hitting command post targets 
+(BBC 2022), thereby disrupting the functionality of enemy command and control 
+systems at different tactical echelons.
+Intelligence
+The capabilities of HIMARS systems are integrated and assist the joint function 
+intelligence by contributing to the operational picture, capitalizing on the 
+characteristics of the modern IFATDS fire command and control system and 
+exploiting target acquisition data and information.
+Disrupting the enemy’s intelligence function with HIMARS systems can be achieved 
+by physically destroying equipment intended for data transmission or data collection 
+such as, for example, communications centres (Kadam 2022) or counter-battery 
+radars (New Voice of Ukraine 2023). The exploitation of HIMARS systems as part 
+of deception plans can contribute to degrading the enemy’s ability to understand the 
+real operational situation by stimulating sensors and deliberately providing certain 
+information such as, for example, shifting the main effort of the force in a certain
+--- 페이지 9 ---
+134
+A. Mirea 
+No.4/2024 (vol. 13)
+https://doi.org/10.53477/2284-9378-24-53
+direction by deploying and employing launch positions for this purpose. As an 
+example, I would like to highlight the role of HIMARS systems from 2022 in the 
+Russo-Ukrainian conflict, as they contributed to misleading the enemy and drawing 
+attention to the province of Kherson, an action followed by the counter-offensive in 
+Kharkov (Toroi 2024, 34).
+Force protection
+The impact of equipping with HIMARS systems on the joint function force protection 
+can be understood, in my view, in two aspects, one positive and one negative. The 
+positive aspect is primarily the high capability of HIMARS systems to effectively 
+combat enemy strike systems from a distance, particularly those that pose a high risk 
+to friendly force structures - such as tactical assets with WMD capabilities.
+The negative aspect would be, in my view, the need to allocate additional or 
+dedicated resources for direct protection and close defence of HIMARS systems, as 
+well as for their air and missile defence throughout the entire operation. This is also 
+a consequence of the fact that, as stated earlier, the HIMARS systems available to a 
+force are high pay-off targets for any potential enemy.
+From the enemy’s perspective, the force protection function is disrupted primarily 
+by the constant need to mitigate the effects of a potential HIMARS attack, which 
+may occur at considerable distances from the front line. Thus, in order to protect 
+important enemy infrastructure elements, concentrations of forces or resources of 
+any type, or to protect other various objectives in rear areas of operations, the enemy 
+will have to take some specific measures and allocate additional resources (electronic 
+warfare or air and missile defence) to mitigate the effects of HIMARS engagement.
+Information Operations (INFO OPS)
+The availability of HIMARS systems at the joint force level and their successful 
+employment during operations can be exploited in information operations to boost 
+the will to fight and the morale of friendly troops. An elementary example in this 
+area can be the promotion of successful HIMARS actions among friendly forces. At 
+the same time, equipping forces with HIMARS and the direct implications of this, 
+such as pushing concentrations of enemy assets further away from the front line, can 
+have demoralizing effects on enemy force structures in the close area of operations 
+(Kosoy 2024).
+Another aspect, also mentioned in the joint function intelligence, is to capitalize 
+on the status of HIMARS systems as a high pay-off target for the enemy in plans 
+to mislead them. The contribution of HIMARS to degrading the enemy’s ability to 
+understand the operational situation can be significant.
+As a characteristic element of the joint function information operations from the 
+enemy’s perspective, I mention the enemy’s focus on propaganda aspects, promoting 
+the destruction of HIMARS systems (Tass 2024)  or the unconventional manner of 
+their use - against civilian population or objectives (Avia.Pro 2022). The disruption
+--- 페이지 10 ---
+135
+OF ”Carol I” NATIONAL DEFENCE UNIVERSITY
+BULLETIN
+of this joint function can be achieved, first of all, by becoming aware of these aspects 
+and then implementing countermeasures or exploiting them in the framework of 
+friendly information operations.
+Sustainment 
+From a sustainment point of view, equipping forces with HIMARS systems have a 
+major impact on the geometry of the operating environment. While from a friendly 
+operations perspective, the main contribution to sustainability is, in my view, 
+countering fire support systems that could disrupt the flow of resources. Regarding 
+enemy operations, HIMARS systems have demonstrated a high potential to affect 
+their sustainability. The maximum range at which HIMARS systems can accurately 
+and effectively engage targets has been intensively leveraged (and publicized) in 
+the Russo-Ukrainian conflict as they were used to strike infrastructure elements, 
+force concentration areas, ammunition depots, or Russian soldier training bases 
+(Kosoy 2024). Thus, we could observe that equipping friendly force structures with 
+HIMARS systems may lead to a revision of the enemy’s way of deploying resources 
+at considerable distances from the front line in order to remove them from the 
+HIMARS engagement range.
+Civil-military cooperation (CIMIC)
+The advantage of using munitions that are constructively aimed at reducing the 
+risk of casualties or collateral damage can be exploited in this joint function to 
+strengthen support for the cause from the civilian population existing in the area of 
+operations. Moreover, the population in the territory occupied by the enemy can be 
+an important source of information regarding his use of military equipment or the 
+conduct of activities by his forces, information which can also be exploited in the 
+planning and execution of fire missions with HIMARS systems.
+Concerning the disruption of the enemy’s civil-military cooperation joint function, 
+special attention needs to be paid to the relationship of proportionality between 
+these functions of the conflicting parties. Thus, the progress achieved by the actions 
+of friendly forces in the functional area of civil-military cooperation strengthens this 
+joint function while, obviously, securing enemy disadvantage.
+Conclusions
+Exploiting the operational framework described by the joint functions can be done 
+beyond their basic role - the tool of the military commander and his staff to ensure 
+a comprehensive approach to the aspects of an operation. Considering that the way 
+joint functions are accomplished in an operation is also a description of the capabilities 
+available to the force, it is possible to argue on their basis some new needs, by solving 
+which mission fulfilment is facilitated in the current confrontation environment.
+Joint functions can provide a framework for understanding and realizing the 
+potential of available capabilities to the military commander, but at the same time,
+--- 페이지 11 ---
+136
+these functions can also provide the requirements of national force structures given 
+the missions they have or may have in a given context. Moreover, by conceptualizing 
+the performance of these functions at the level of a potential adversary or other 
+actor present in the area of operations, we can have a thorough understanding of 
+the potential of the capabilities available to them, which can be exploited both in 
+understanding the confrontation environment as a whole and in determining the 
+centres of gravity for targeted entities.
+Through the example used in this paper - the equipping of national land forces 
+structures with HIMARS systems - I have argued a useful way, in my view, to 
+substantiate how to capitalize on existing or prospective capabilities. At the same 
+time, in writing this paper, I have presented and argued a perspective on the impact 
+of equipping national armed forces structures with HIMARS systems by addressing 
+their contribution or influence on the fulfilment of each joint function in particular 
+with examples from the ongoing Russo-Ukrainian conflict.
+References
+Avia.Pro. 2022. ”ВСУ показали особенность применения РСЗО Himars в условиях
+контрбатарейной борьбы” (The AFU showed the peculiarity of using Himars MLRS 
+in the conditions of counter-battery combat). https://avia.pro/news/vsu-pokazali-
+osobennost-primeneniya-rszo-himars-v-usloviyah-kontrbatareynoy-borby.
+BBC. 2022. ”Ukraine: What are Himars missiles and are they changing the war?” https://
+www.bbc.com/news/world-62512681.
+Defence DataBase. 2024. ”M142 HIMARS multiple rocket launcher”. https://defencedb.
+com/profile_page.php?item_id=16.
+Forțele Terestre Române. 2024. ”Sistemul de rachete cu lansare multiplă M-142 HIMARS”. https://
+forter.ro/inzestrare/sistemul-de-rachete-cu-lansare-multipl%C4%83-m-142-himars.
+Global Defense News. 2023. ”Using HIMARS Ukrainian forces destroy five Russian MSTA-S
+howitzers in key counter-offensive”. https://armyrecognition.com/focus-analysis-
+conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/using-himars-
+ukrainian-forces-destroy-five-russian-msta-s-howitzers-in-key-counter-offensive.
+Goldstein, Lyle, and Nathan Waechter. 2023. The Diplomat. Iunie 22. Accessed August 11,
+2024. 
+https://thediplomat.com/2023/06/china-considers-countermeasures-to-us-
+himars-missile-system/.
+Kadam, Tanmay. 2022. Kudos HIMARS! Russian Military Experts Say US Systems Are
+Confusing Counter-Battery Ops By Changing Trajectory. https://www.eurasiantimes.
+com/kudos-himars-russian-military-experts-say-us-systems-are-confusing-counter-
+battery-ops-by-changing-trajectory/.
+Kosoy, Daniel. 2024. “HIMARS, Ukraine’s Original Game Changer.” United24 Media. https://
+united24media.com/war-in-ukraine/himars-ukraines-original-game-changer-1613.
+A. Mirea 
+No.4/2024 (vol. 13)
+https://doi.org/10.53477/2284-9378-24-53
+--- 페이지 12 ---
+137
+OF ”Carol I” NATIONAL DEFENCE UNIVERSITY
+BULLETIN
+Lockheed Martin. 2024. Aerostar and Lockheed Martin open the first European HIMARS
+Sustainment Centre in Romania. https://news.lockheedmartin.com/2024-05-30-
+aerostar-and-lockheed-martin-open-the-first-european-himars-sustainment-centre-
+in-romania?_gl=1*1scrj9n*_gcl_au*NDM3NzExMjQwLjE3MzEwMDcxNzc.
+Marquardt, Alex, Natasha Bertrand and Zachary Cohen. 2023. ”Russia’s jamming of
+US-provided rocket systems complicates Ukraine’s war effort.” CNN. https://edition.
+cnn.com/2023/05/05/politics/russia-jamming-himars-rockets-ukraine/index.html.
+NATO. 2022a. Allied Joint Doctrine AJP-01. NATO Standardization Office.
+—. 2022b. Allied Joint Doctrine for Land Operations AJP-3.2. NATO Standardization Office.
+—. 2019. Allied Joint Doctrine for the Conduct of Operations AJP-3. NATO Standardization
+Office.
+New Voice of Ukraine. 2023. HIMARS strike destroys rare Yastreb-A counter-battery radar
+in Russian Rear – video. https://english.nv.ua/nation/video-of-himars-destroying-
+russian-yastreb-a-counter-battery-radar-in-donetsk-oblast-50436872.html.
+Newsweek. 2024. Strikes on Ukraine’s Most Prized Assets Raise Alarm. https://www.newsweek.
+com/ukraine-russia-strikes-helicopters-abrams-bradleys-1879148.
+Nistorescu, Claudiu-Valer. 2024. “Asimetrii generate de noile sisteme de armament și rolul
+lor în obținerea succesului pe câmpul de luptă. Efectele generate de sistemul HIMARS 
+în conflictul din Ucraina.” Buletinul Universității Naționale de Apărare „Carol I” 13 (3): 
+72-83.
+Orjanu, Gheorghiță. 2023. „HIMARS deschide uși. Artileria Armatei României a intrat în
+«clubul select» ASCA. SUA – rol cheie în primirea României în ASCA.” Defense Romania. 
+https://www.defenseromania.ro/himars-deschide-usi-artileria-armatei-romaniei-a-intrat-
+in-clubul-select-asca-sua-rol-cheie-in-primirea-romaniei-in-asca_622036.html.
+SMG. 2011. Doctrina Armatei României SMG-103. București: MApN.
+—. 2014. Doctrina pentru operații întrunite a Armatei României SMG/ PF-3. București:
+MApN.
+Tass. 2024. Russia’s strike destroys four HIMARS launchers, 35 foreign personnel in Ukraine
+ooperation. https://tass.com/politics/1814677.
+Toroi, George-Ion. 2024. “A theoretical analysis of the art of deception.” Strategic Impact
+(No. 2): 25-47.
+VPK News. 2023. The Russian Armed Forces revealed the weak points of HIMARS. https://vpk.
+name/en/714706_the-russian-armed-forces-revealed-the-weak-points-of-himars.
+html.
+--- 페이지 13 ---
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.

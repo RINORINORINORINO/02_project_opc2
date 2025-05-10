@@ -22,28 +22,32 @@ UserConfig = Dict[str, Any]  # 사용자 설정을 위한 타입
 
 # 글로벌 설정
 DEFAULT_CONFIG_PATH = "config.json"
-MAX_SOURCES = 20  # 최대 소스 개수
+MAX_SOURCES = 30  # 최대 소스 개수
 SUPPORTED_FILE_TYPES = ['.pdf', '.docx', '.txt']  # 지원하는 파일 형식
 
-def get_user_input(config_path: str = DEFAULT_CONFIG_PATH) -> Dict:
+def get_user_input(config_path: str = DEFAULT_CONFIG_PATH, force_input: bool = False) -> Dict:
     """
-    사용자로부터 필요한 입력을 받고 유효성을 검사하는 향상된 함수
-    - 주제
-    - 소스 (최대 20개)
-    - 구조 (선택)
-    - 추가 설정 (병렬 처리 등)
+    사용자로부터 필요한 입력을 받는 단순화된 함수
     
     Args:
-        config_path: 설정 파일 경로 (이전 설정 불러오기)
+        config_path: 설정 파일 경로
+        force_input: 강제로 새 입력 요청 (기본값: False)
         
     Returns:
         사용자 입력 및 구성 정보 딕셔너리
     """
     # 이전 설정 불러오기 시도
-    previous_config = load_previous_config(config_path)
+    previous_config = {}
+    if not force_input and os.path.exists(config_path):
+        try:
+            with open(config_path, 'r', encoding='utf-8') as f:
+                previous_config = json.load(f)
+            print(f"✅ 이전 설정 파일 로드: {config_path}")
+        except Exception as e:
+            print(f"⚠️ 설정 파일 로드 실패: {str(e)}")
     
     print("\n" + "="*50)
-    print("🎬 군사/국제정치 전문 영어 유튜브 콘텐츠 자동 생성")
+    print("🎬 국제관계/지정학/세계사 전문 한국어 유튜브 콘텐츠 자동 생성")
     print("="*50)
     
     # 주제 입력
@@ -52,31 +56,38 @@ def get_user_input(config_path: str = DEFAULT_CONFIG_PATH) -> Dict:
     # 소스 입력
     sources = get_sources_input(previous_config)
     
-    # 구조 입력
-    structure = get_structure_input(previous_config)
-
-    # 고급 설정
-    advanced_settings = get_advanced_settings(previous_config)
+    # 구조는 기본값 사용
+    structure = "서론-본론-결론"
+    if "structure" in previous_config:
+        structure = previous_config["structure"]
     
-    # 요약 스타일 - 고정 (군사/국제정치 전문가)
-    style = "military_expert"
-    voice = advanced_settings.get("voice", "echo")  # 음성 설정
-    
-    # 결과 조합
+    # 기본 설정 값
     result = {
         "topic": topic,
         "sources": sources,
         "structure": structure,
-        "style": style,
-        "voice": voice,
-        "parallel_workers": advanced_settings.get("parallel_workers", 3),
-        "use_whisper": advanced_settings.get("use_whisper", True),
-        "optimize_tts": advanced_settings.get("optimize_tts", True),
-        "additional_instructions": advanced_settings.get("additional_instructions", "")
+        "style": "international_relations_expert",
+        "voice": "echo",
+        "parallel_workers": 3,
+        "use_whisper": True,
+        "optimize_tts": True,
+        "additional_instructions": "",
+        "content_types": ["longform", "shortform1", "shortform2"]
     }
     
+    # 이전 설정에서 기본값이 아닌 값 복원
+    for key in ["voice", "parallel_workers", "use_whisper", "optimize_tts", 
+                "additional_instructions", "content_types"]:
+        if key in previous_config:
+            result[key] = previous_config[key]
+    
     # 설정 저장
-    save_config(result, config_path)
+    try:
+        with open(config_path, 'w', encoding='utf-8') as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+        print(f"✅ 설정 저장 완료: {config_path}")
+    except Exception as e:
+        print(f"⚠️ 설정 저장 실패: {str(e)}")
     
     # 입력 요약 확인
     show_input_summary(result)

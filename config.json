@@ -1,0 +1,29 @@
+{
+  "topic": "ak-47",
+  "sources": [
+    {
+      "type": "txt",
+      "path": "C:\\Users\\rinor\\Downloads\\READ\\ak-47\\ak-47.txt"
+    },
+    {
+      "type": "pdf",
+      "path": "C:\\Users\\rinor\\Downloads\\READ\\ak-47\\ak47-01.pdf"
+    },
+    {
+      "type": "pdf",
+      "path": "C:\\Users\\rinor\\Downloads\\READ\\ak-47\\ak47-02.pdf"
+    },
+    {
+      "type": "pdf",
+      "path": "C:\\Users\\rinor\\Downloads\\READ\\ak-47\\ak47-03.pdf"
+    },
+    "https://en.wikipedia.org/wiki/AK-47"
+  ],
+  "structure": "서론-본론-결론",
+  "style": "international relations_expert",
+  "voice": "Wyatt",
+  "parallel_workers": 8,
+  "use_whisper": true,
+  "optimize_tts": true,
+  "additional_instructions": ""
+}

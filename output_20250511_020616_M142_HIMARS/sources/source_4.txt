@@ -1,0 +1,619 @@
+제목: Evolution of Multiple Launch Rocket Systems from Early Rockets to HIMARS and Beyond
+저자: Mykola Bondarenko, Volodymyr Habrinets, Mykhailo Vorobei
+주제: Purpose. The article examines the evolution of multiple launch rocket systems, from early rocket munitions to HIMARS, and explores their future development. It focuses on HIMARS' technical advantages and its impact on combat tactics. Design / Method / Approach. The study relies on open-source data, including official reports and news on HIMARS use. Methods include analyzing precision strike effectiveness, tactical outcomes, and strategic impact through compara-tive analysis of different missile types in combat. Findings. Key aspects in-clude the development of accuracy and range, the shift to precision weapons, and the impact on battlefield dynamics. HIMARS has enhanced mobility and adaptability. Theoretical Implications. This study contributes to the theoretical understanding of MLRS in modern warfare, with a specific focus on HIMARS’ evolving role in shaping new military tactics and its integration into contempo-rary combat doctrine. It enhances the knowledge base on precision artillery systems and their operational effectiveness. Practical Implications. The arti-cle offers recommendations for military analysts on using HIMARS and select-ing appropriate missiles for combat scenarios. Originality / Value. This work provides an original analysis of the evolution of MLRS, offering a unique per-spective on the technological and tactical advancements embodied in HIMARS. It serves as a valuable resource for military experts, defense analysts, and re-searchers interested in understanding the development of modern artillery sys-tems and their role in future warfare. Research Limitations / Future Re-search. The study is based on open-source data, which may limit the scope of analysis and exclude classified information that could provide a more compre-hensive view. Future research could include in-depth evaluations of missile ef-fectiveness, long-term operational data, and HIMARS’ ongoing impact on global military strategies. Paper Type. Discussion Paper.
+
+목차:
+- Evolution of Multiple Launch Rocket Systems from Early Rockets to HIMARS and Beyond (페이지: 1)
+  - Purpose (페이지: 3)
+  - Data and Methods (페이지: 3)
+  - Description of the MLRS system design (페이지: 3)
+  - MLRS Operation Process with GPS (페이지: 5)
+  - Limitations and challenges (페이지: 7)
+  - The concept of separating the solid-fuel casing (페이지: 7)
+  - Analysis of current systems using the example of HIMARS evolution (페이지: 8)
+    - M-26 Rocket (페이지: 9)
+    - ER-MLRS (페이지: 9)
+    - GMLRS (페이지: 9)
+    - MSTAR (페이지: 10)
+    - ATACMS Block I and IA (페이지: 10)
+    - ATACMS Block II and IIA (페이지: 10)
+  - Comparison with Traditional Systems (페이지: 10)
+  - Key findings (페이지: 11)
+  - Conclusion (페이지: 11)
+  - References (페이지: 12)
+
+--- 페이지 1 ---
+Challenges and Issues of Modern Science, 3 (2024). ISSN: 3083-5704 
+ 
+URL: https://cims.fti.dp.ua/j/article/view/241 
+ 
+PURL: https://purl.org/cims/2403.003
+Copyright © 2024 Authors. 
+ 
+This work is licensed under a Creative 
+ 
+Commons Attribution 4.0 International License.
+Evolution of Multiple Launch Rocket Systems
+from Early Rockets to HIMARS and Beyond
+Mykola Bondarenko 
+, Volodymyr Habrinets 
+, 
+Mykhailo Vorobei
+Purpose. The article examines the evolution of multiple launch rocket systems, 
+from early rocket munitions to HIMARS, and explores their future development. It 
+focuses on HIMARS' technical advantages and its impact on combat tactics. De-
+sign / Method / Approach. The study relies on open-source data, including official 
+reports and news on HIMARS use. Methods include analyzing precision strike ef-
+fectiveness, tactical outcomes, and strategic impact through comparative analysis 
+of different missile types in combat. Findings. Key aspects include the develop-
+ment of accuracy and range, the shift to precision weapons, and the impact on 
+battlefield dynamics. HIMARS has enhanced mobility and adaptability. Theoretical 
+Implications. This study contributes to the theoretical understanding of MLRS in 
+modern warfare, with a specific focus on HIMARS’ evolving role in shaping new 
+military tactics and its integration into contemporary combat doctrine. It enhances 
+the knowledge base on precision artillery systems and their operational effective-
+ness. Practical Implications. The article offers recommendations for military an-
+alysts on using HIMARS and selecting appropriate missiles for combat scenarios. 
+Originality / Value. This work provides an original analysis of the evolution of 
+MLRS, offering a unique perspective on the technological and tactical advance-
+ments embodied in HIMARS. It serves as a valuable resource for military experts, 
+defense analysts, and researchers interested in understanding the development of 
+modern artillery systems and their role in future warfare. Research Limitations / 
+Future Research. The study is based on open-source data, which may limit the 
+scope of analysis and exclude classified information that could provide a more 
+comprehensive view. Future research could include in-depth evaluations of missile 
+effectiveness, long-term operational data, and HIMARS’ ongoing impact on global 
+military strategies. Paper Type. Discussion Paper.
+Keywords:
+HIMARS, MLRS, modern military conflicts, missile technology, multiple launch 
+rocket system
+Contributor Details:
+Mykola Bondarenko, PhD candidate, Oles Honchar Dnipro National University: 
+Dnipro, UA, m.bondarenko@ftf.dnu.edu.ua 
+Volodymyr Habrinets, Prof., Oles Honchar Dnipro National University: Dnipro, UA, 
+habrinets@ftf.dnu.edu.ua 
+Mykhailo Vorobei, PhD candidate, Oles Honchar Dnipro National University: 
+Dnipro, UA, m.vorobei@ftf.dnu.edu.ua
+--- 페이지 2 ---
+24 
+Challenges and Issues of Modern Science, 3 (2024)
+Rocket engines continue to develop rapidly, with one of the main objectives 
+being the creation of efficient and safe systems for delivering the payload to pre-
+cisely defined coordinates. Three main types of engines are used for modern mil-
+itary missions: solid-fuel, liquid-fuel, and hybrid rocket engines, which combine 
+a liquid oxidizer with solid fuel. Each of these systems has distinct advantages and 
+disadvantages, and the selection of one or another solution depends on the specific 
+tasks at hand, balancing these factors (Glaser et al., 2023).
+One of the leading areas of development in rocket technology for military 
+purposes has been multiple launch rocket systems (MLRS) and precision-guided 
+missile weapons. Multiple launch rocket systems are a type of artillery weapon 
+that uses munitions with rocket propulsion. MLRS are designed to deliver mass 
+strikes against area targets. The history of MLRS began in the 20th century with 
+the development of technologies, and to this day, this weapon has undergone sig-
+nificant evolution. The idea of using rocket shells for salvo fire originated in the 
+interwar period of the 1930s. The pioneers in the creation of the first rocket sys-
+tems were the Soviet Union and Germany. Initial developments focused on creat-
+ing rocket fuel and studying the possibilities of launching rockets over long dis-
+tances (Krepinevich, 2023).
+One of the key achievements of Soviet engineering was the creation of the 
+RS-82 and RS-132 rocket shells, designed for installation on aircraft and tested in 
+1937. These were small rockets that used solid fuel and could strike both ground 
+and air targets. In Germany, the possibility of using rocket shells to create weapons 
+capable of attacking the enemy over large areas was also explored. This research 
+led to the creation of the Nebelwerfer mortars, which became an important step in 
+the development of rocket artillery. The tests showed that such shells had the po-
+tential for use in salvo fire, as they could cover a significant area through multiple 
+launches. This led to the idea of developing more powerful multiple launch rocket 
+systems for use in field conditions (Bailey, 2003).
+The Soviet command saw this as a way to suppress large concentrations of 
+enemy manpower and equipment. The goal was set to create a mobile system ca-
+pable of striking targets at significant distances and characterized by high deploy-
+ment speed. It was during this period that the concept of the MLRS was born—a 
+multiple-launch weapon capable of covering large areas through the simultaneous 
+launch of dozens of rockets. By the early 1940s, the famous Soviet BM-13 system, 
+later named "Katyusha," was developed (Prenatt, 2018). The first combat opera-
+tion of the BM-13 ("Katyusha") systems took place on July 14, 1941, near the city 
+of Orsha in Belarus, just a few weeks after the start of the German-Soviet War. 
+During the attack, a Soviet battery under the command of Captain Ivan Flerov 
+struck a German crossing over the Orshitsa River. The powerful salvo came as a 
+surprise to the Germans: in less than a minute, the rockets caused significant dam-
+age to the enemy, destroying artillery positions, ammunition, and equipment at the 
+crossing. This strike demonstrated the potential of the "Katyushas" as a means to 
+deliver powerful firepower against troop concentrations and fortifications 
+(Strong & Marble, 2011).
+After the successful use of Katyushas during World War II, multiple launch 
+rocket systems (MLRS) continued to evolve and gain widespread adoption around
+--- 페이지 3 ---
+Challenges and Issues of Modern Science, 3 (2024) 
+25
+the world. This development included improvements in mobility, accuracy, range, 
+as well as integration with modern information and navigation systems 
+(Campbell, 2020).
+Purpose
+The purpose of this article is to analyze the evolution of multiple launch 
+rocket systems, specifically the HIMARS system, as well as to study the technical 
+advantages of multiple launch rocket systems and their impact on combat tactics. 
+The article explores how advancements in accuracy and mobility affect the dy-
+namics of combat, as well as considering the prospects for further development of 
+multiple launch rocket system technologies. The implementation of GPS signifi-
+cantly enhances the effectiveness of multiple launch rocket systems by improving 
+accuracy, mobility, and the ability to carry out highly accurate strikes. This, in 
+turn, alters tactical approaches in modern warfare, allowing for the destruction of 
+strategic targets with minimal losses.
+Data and Methods
+The research is based on open sources of information, including official mil-
+itary reports, news about the use of HIMARS in combat conditions, and publica-
+tions on multiple launch rocket systems. Additionally, articles from scientific jour-
+nals, technical documents, and studies related to the development and use of 
+HIMARS are also utilized. In particular, the following methods were used:
+1. Comparative Analysis. This method was used to compare HIMARS with 
+other multiple launch rocket systems, evaluating differences in terms of accuracy, 
+range, mobility, and adaptability.
+2. Tactical Evaluation. A detailed analysis of how the introduction of HIM-
+ARS has impacted combat strategies, focusing on real-world examples and case 
+studies from military operations.
+3. Effectiveness Assessment. The effectiveness of precision strikes was as-
+sessed by examining the precision, speed, and impact of multiple launch rocket 
+systems in various combat scenarios, using available data and reports on its use in 
+military engagements.
+4. Literature Review. A review of open-source publications, technical docu-
+ments, and scientific research on the development, deployment, and operational 
+use of HIMARS and similar systems in combat.
+5. Data Synthesis. Data gathered from military reports, news articles, and 
+technical studies were synthesized to draw conclusions about the strategic and 
+operational implications of multiple launch rocket systems in modern warfare.
+Description of the MLRS system design
+After World War II, multiple launch rocket systems continued to develop in 
+the Soviet Union and other countries. The focus was primarily on improving the
+--- 페이지 4 ---
+26 
+Challenges and Issues of Modern Science, 3 (2024)
+mobility and power of the systems. The Soviet Union continued to refine the BM-
+13 system ("Katyusha"), developing new versions with improved accuracy and 
+range. During this period, MLRS such as the BM-21 "Grad" (developed in 1960) 
+emerged, becoming the cornerstone of Soviet artillery for many years and being 
+used in numerous local conflicts. In the United States, the Multiple Launch Rocket 
+System (MLRS) was developed, which would later become the foundation of 
+American rocket artillery.
+The BM-21 "Grad" is a Soviet-era multiple rocket launcher system (MRLS) 
+designed for artillery support and capable of delivering heavy firepower over a 
+large area. It was introduced in 1963 and became one of the most widely used 
+rocket artillery systems in the world. Its design is based on simplicity, ruggedness, 
+and effective firepower, making it highly suitable for both offensive and defensive 
+operations (Nistorescu, 2024).
+The BM-21 is mounted on a Ural-375D or Ural-4320 6x6 truck chassis, 
+providing the system with a mobile platform for rapid deployment and relocation. 
+The truck has a special platform to mount the launcher frame, which is capable of 
+holding 40 rocket tubes. The launcher system is designed to fire rockets in a rapid 
+salvo, creating a saturation effect over a large area.
+The BM-21 fires the 122mm Grad rockets, which are available in a variety of 
+configurations, including high-explosive fragmentation (HE-FRAG), incendiary, 
+and smoke rockets, as well as chemical and cluster munitions. The rockets are 
+designed to be inexpensive to produce and easy to maintain, making the system 
+an attractive option for both state military forces and irregular armed groups. The 
+range of the rockets is typically between 20 and 40 kilometers, depending on the 
+type of warhead and the trajectory (Campbell, 2020).
+The system uses a simple yet effective fire control system, with fire adjust-
+ments made manually or using basic targeting information from reconnaissance 
+units or forward observers. The BM-21 does not have advanced guidance or tar-
+geting systems but relies on its firepower and the volume of rockets launched to 
+saturate target areas. It can fire all 40 rockets within a few seconds, creating an 
+intense impact on enemy forces or infrastructure (Dantis, 2023).
+The BM-21 is highly mobile and can be rapidly deployed or relocated. The 
+system can be set up and fired in minutes and is effective in both open and 
+mountainous terrain. However, it requires a relatively large crew and logistical 
+support for operations, including the transportation of ammunition and fuel.
+The early development of MLRS systems was largely initiated during the 
+Cold War by the United States, with the M270 MLRS being one of the first mod-
+ern systems to represent the capabilities of rocket artillery in the 1980s. However, 
+the earliest MLRS designs were heavily influenced by the lessons learned from 
+earlier rocket artillery systems like the BM-21 and Soviet-era Katyusha systems 
+(Gady & Kofman, 2023).
+The M270 MLRS is a tracked system mounted on the M2/M3 Bradley Infan-
+try Fighting Vehicle chassis, providing high mobility, armor protection, and cross-
+country capabilities. The system features a 12-tube launcher capable of firing 
+227mm rockets, providing a much larger payload than the BM-21.
+The M270 is capable of launching both guided and unguided rockets,
+--- 페이지 5 ---
+Challenges and Issues of Modern Science, 3 (2024) 
+27
+including GMLRS (Guided Multiple Launch Rocket System) rockets, which have 
+a range of up to 70 kilometers and can deliver highly accurate strikes. The system 
+is also capable of firing ATACMS missiles, which have a much longer range, up 
+to 300 kilometers, depending on the variant. The use of precision-guided rockets 
+greatly improves accuracy and reduces collateral damage compared to earlier sys-
+tems like the BM-21 (Strong & Marble, 2011).
+The M270 MLRS is equipped with an advanced fire control system, including 
+GPS guidance for precise targeting. It can quickly fire rockets at pre-determined 
+targets with minimal crew involvement. The system can fire rockets in rapid suc-
+cession, with a full salvo of 12 rockets being launched within 30 seconds. The 
+crew typically consists of three personnel: the driver, gunner, and crew chief 
+(Harrison & Evans 2019).
+The M270 is designed for fast mobility and can be deployed in various ter-
+rains, including forests, mountains, and urban environments. It has a robust ar-
+mored hull, providing protection from small arms fire and shrapnel. It is also ca-
+pable of quickly relocating after firing to avoid counterattacks. The comparison 
+of these two systems is presented in Table 1 (Pomper & Tuganov, 2023).
+Table 1 – Comparison of BM-21 and Early MLRS (Source: Qian & Chen, 2022)
+Feature 
+BM-21 "Grad" 
+Early MLRS (M270) 
+Launch Platform 
+6x6 truck chassis 
+Tracked M2/M3 Bradley chassis 
+Rocket Type 
+122mm Grad rockets 
+227mm rockets, GMLRS, ATACMS 
+Firing Capacity 
+40 rockets 
+12 rockets 
+Range 
+20–40 km 
+70 km (GMLRS), 300 km (ATACMS) 
+Accuracy 
+Low (unguided) 
+High (guided and unguided) 
+Fire Control System 
+Manual/Basic 
+Advanced (GPS, computerized) 
+Mobility 
+High, off-road capable 
+High, but tracked 
+Protection 
+No armor 
+Armored for crew protection 
+Deployment Time 
+3-5 minutes 
+3-5 minutes 
+ 
+If we analyze the presented characteristics, we can observe the next step in 
+the development of multiple launch rocket systems, which will guide their im-
+provement in the coming years — the implementation of positioning and orienta-
+tion systems to enhance the accuracy of the rocket launcher.
+MLRS Operation Process with GPS
+The integration of the MLRS with GPS significantly enhances the accuracy, 
+efficiency, and effectiveness of the system. The GPS system enables precise tar-
+geting, real-time navigation adjustments, and optimized mission execution. Below 
+is a detailed breakdown of how the MLRS operates in conjunction with GPS:
+1. System Initialization and Pre-launch: The MLRS system is positioned, and 
+GPS is initialized to track the system’s position. Target coordinates are entered, 
+and the GPS provides real-time updates to optimize the firing solution.
+2. Firing Process: The fire control system calculates the launch parameters 
+using GPS data. Guided rockets (such as GMLRS) receive midcourse guidance
+--- 페이지 6 ---
+28 
+Challenges and Issues of Modern Science, 3 (2024)
+via GPS to adjust their trajectory for precise targeting.
+3. Post-launch Operations: Real-time feedback from the GPS system helps to 
+evaluate the effectiveness of the strike. The system may reposition itself, with GPS 
+aiding in accurate navigation.
+4. Coordination and Communication: GPS data is integrated with command-
+and-control systems for effective coordination with other units. MLRS systems 
+deliver coordinated strikes, with GPS ensuring synchronization and precision.
+5. Post-mission Data and Analysis: GPS data is logged and used for after-
+action analysis to improve future missions.
+By the time GPS was first used in multiple launch rocket systems and high-
+precision missile weaponry in the 1990s, satellite positioning systems began to 
+actively develop in several countries, including the USA and the USSR, and later 
+in other countries. Here are the key points regarding the use of satellite systems in 
+these countries.
+The United States began deploying the global positioning system (GPS) in 
+1978. It became fully operational by 1995 when the number of satellites in the 
+orbital constellation reached the necessary level for global coverage. Multiple 
+launch rocket systems (MLRS) started using GPS to improve accuracy in the 
+1990s. Specifically, the GMLRS (Guided Multiple Launch Rocket System), part 
+of the MLRS, uses GPS for precise targeting.
+The Soviet Union (USSR) started developing the GLONASS satellite navi-
+gation system in 1976. The first satellites were launched into orbit in 1982, and 
+by the early 1990s, GLONASS became operational within the USSR. Russia used 
+GLONASS in precision-guided missile systems and multiple launch rocket sys-
+tems, such as the Tochka-U tactical missile system and the Smerch, although GPS 
+was also used in some cases to enhance accuracy.
+China began developing its BeiDou satellite navigation system in the 2000s. 
+Initially, the system used satellites with regional coverage, but by the 2010s, it 
+began evolving into a global network. China integrated BeiDou into its precision-
+guided systems and high-precision artillery. Multiple launch rocket systems, such 
+as the A-100, and medium-range missiles began using this navigation system to 
+improve targeting accuracy.
+The European Union started developing its Galileo satellite navigation sys-
+tem in the 2000s, with plans to achieve full coverage by 2020. Despite the later 
+launch, EU countries began integrating Galileo into their precision-guided wea-
+ponry and artillery in the 2010s. Countries such as Germany, the United Kingdom, 
+and France used GPS and later Galileo in their systems, such as the Mars II.
+India developed its regional satellite navigation system IRNSS (NavIC) in the 
+2000s. The system became operational in 2016, and its use in military applications 
+has significantly increased since then. India began integrating NavIC into its sys-
+tems, including artillery and missiles, to improve targeting accuracy in systems 
+such as the Pinaka (Plessis, 2023). Thus, satellite positioning systems have be-
+come a key element in enhancing the accuracy and effectiveness of multiple 
+launch rocket systems and precision-guided missile weapons in many countries.
+--- 페이지 7 ---
+Challenges and Issues of Modern Science, 3 (2024) 
+29
+Limitations and challenges
+While Multiple Launch Rocket Systems offer significant advantages in terms 
+of firepower, range, and the ability to deliver a large volume of rockets on target 
+quickly, they also face several limitations and challenges. These challenges can 
+affect the operational effectiveness, strategic use, and overall success of MLRS in 
+various military operations. One of the key limitations of early MLRS was the 
+lack of precision targeting. In conventional MLRS systems, rockets were typically 
+unguided, relying on the accuracy of the launcher’s position and fire control sys-
+tem. While the development of guided rockets (such as GMLRS) has significantly 
+improved accuracy, even modern systems can still experience challenges with tar-
+geting precision under certain conditions, especially in complex terrains or ad-
+verse weather conditions. Even guided rockets can face issues related to GPS jam-
+ming or interference, which can degrade their targeting ability. When operating in 
+environments where GPS signals are obstructed or spoofed, MLRS can lose its 
+accuracy, leading to the potential for collateral damage or mission failure.
+MLRS, like all artillery and rocket systems, are susceptible to countermeas-
+ures that can diminish their effectiveness. These countermeasures include radar 
+jamming, electronic warfare, and the deployment of anti-artillery systems such as 
+counter-battery radars and interceptors designed to neutralize incoming rockets. 
+The cost of purchasing, operating, and maintaining MLRS platforms can be pro-
+hibitively high for some countries. Modern systems like the M270 or M142 HIM-
+ARS, along with their guided rocket munitions, require significant investment in 
+both hardware and operational costs. Additionally, the maintenance of these sys-
+tems, especially the advanced electronics, fire control systems, and complex 
+rocket launchers, requires a high level of technical expertise (Plessis, 2023).
+The operational effectiveness of MLRS can be heavily influenced by envi-
+ronmental conditions, such as extreme weather (e.g., rain, snow, or extreme heat), 
+and the nature of the terrain. Harsh weather can affect the guidance systems of 
+rockets, the accuracy of fire control systems, and the comfort and functionality of 
+the crew operating the system (Hill, 2021). Despite the impressive range of mod-
+ern MLRS, there are still constraints related to the maximum effective range of 
+the rockets. The maximum firing range for systems like the GMLRS is typically 
+around 70-90 kilometers, but this range may be insufficient for some tactical sit-
+uations, particularly when engaging distant targets. The performance of rockets 
+can also vary depending on the type of warhead or payload used, and their effec-
+tiveness can be diminished in specific target environments, such as heavily forti-
+fied positions or protected targets. The need to deploy a large number of rockets 
+to ensure target destruction can increase the logistical burden and limit the effec-
+tiveness of MLRS in prolonged engagements (Russo, 2018).
+The concept of separating the solid-fuel casing
+One of the main problems limiting the range and accuracy of missile flight in
+--- 페이지 8 ---
+30 
+Challenges and Issues of Modern Science, 3 (2024)
+multiple launch rocket systems is the weight of the missile, caused by the use of 
+a heavy solid-fuel casing and large dimensions. When the missile begins its flight, 
+the solid fuel in the engine burns off, but the mass and size of the missile, including 
+the casing, remain significant, creating additional air resistance and reducing the 
+flight range. Moreover, after the solid fuel is exhausted, the control of the rocket 
+completely depends on the gas-dynamic rudder system. However, due to the large 
+size of the rocket's body, the effectiveness of this control system is limited, as well 
+as the possibility of precise targeting.
+To solve this problem, a concept has been proposed that involves separating 
+the solid-fuel casing of the missile after the main fuel burns out, leaving only the 
+warhead and guidance system for further flight.
+After the fuel burns out, a specially designed mechanism separates the mis-
+sile's casing, which can be ejected using pyrotechnic charges or mechanical grips. 
+This allows for the removal of mass that no longer serves any functional purpose, 
+reducing the missile's size and significantly decreasing air resistance.
+The separation of the heavy casing after the fuel burns out immediately re-
+duces the overall mass of the missile. The reduced length lowers aerodynamic 
+drag, allowing the missile to achieve greater flight range. This technique also re-
+duces the need for additional control and stabilization systems, as the remaining 
+part of the missile has smaller dimensions and weight.
+After the separation of the solid-fuel casing, the missile continues its flight 
+with high manoeuvrability, as its gas-dynamic control system operates more effi-
+ciently with reduced resistance. This improves guidance accuracy and enables the 
+missile to reach its target more precisely at long distances.
+Analysis of current systems using the example of 
+HIMARS evolution
+The development of HIMARS began in the mid-1980s when Loral Vought 
+Systems started exploring the possibility of creating a highly mobile rocket artil-
+lery system capable of air transport. In 1990, the U.S. Army articulated the re-
+quirements for a lightweight version of the Multiple Launch Rocket System, lead-
+ing to the creation of the HIMARS prototype, which was first demonstrated in 
+1994. In early 1996, Lockheed Martin received a contract to assemble prototypes 
+of HIMARS, which underwent testing in 1998. The system was certified for use 
+by the military in 2005, and the first unit to receive HIMARS became part of the 
+XVIII Airborne Corps of the United States.
+HIMARS was first used in combat in 2010 during operations in Afghanistan. 
+Since then, the system has been actively employed in various conflicts, including 
+the wars in Iraq and Syria.
+Since the early 2020s, HIMARS have been delivered to Ukraine as part of 
+military assistance from the United States. This event has attracted the attention 
+of the international community and marked a significant milestone in equipping 
+the Ukrainian armed forces with modern weaponry. It is suggested to consider 
+several generations of this type of missile (Krepinevich, 2023).
+--- 페이지 9 ---
+Challenges and Issues of Modern Science, 3 (2024) 
+31
+M-26 Rocket
+The M-26 Basic Rocket is a widely used ammunition type for Multiple 
+Launch Rocket Systems (MLRS) today. This free-flight, single-stage solid pro-
+pellant rocket is capable of delivering conventional munitions to ranges between 
+ten kilometers and thirty-two and a half kilometers. The M-26 functions as a high-
+volume area fire weapon system, making it effective against personnel and lightly 
+armored targets. Due to its large impact area, it should not be fired within two 
+kilometers of friendly troops, except in extreme situations.
+The M-26 rocket carries 644 Dual Purpose Improved Conventional Muni-
+tions (DPICM) submunitions, which are known to have a tendency to malfunction. 
+Tactical maneuver plans must account for movement restrictions that may arise 
+when using M-26 rockets in areas where subsequent friendly maneuvers could be 
+necessary based on the tactical situation. Currently, M-26 rockets are not a suitable 
+option for engaging hard, moving, or point targets due to their accuracy and mu-
+nition effectiveness (Prenatt, 2018).
+ER-MLRS
+The Extended Range Multiple Launch Rocket System is an advancement of 
+the existing M26 Dual Purpose Improved Conventional Munition rocket. ER-
+MLRS is a free-flying, single-stage solid propellant rocket designed to deliver a 
+variety of conventional munitions over greater distances compared to the M26 
+rocket. This system offers commanders increased flexibility by enabling expanded 
+cross-border fire capabilities and allowing continuous fire during rapid offensive 
+operations. Survivability is significantly enhanced during defensive actions, as 
+commanders can now target the enemy's long-range artillery and rocket systems. 
+The ER-MLRS can be launched from both the MLRS M270 and the High Mobil-
+ity Artillery Rocket System. In addition to extending the range of MLRS and 
+HIMARS, the ER-MLRS also has a substantial positive impact on the accuracy 
+and reliability of its submunitions. Notably, it replaces the M-77 submunition used 
+in the M-26 with the XM-85 DPICM submunition, which features a self-destruct 
+fuse mechanism. This enhancement reduces the dud rate to 1% or lower, compared 
+to the M-77's dud rate, which can be as high as 5% (Prenatt, 2018).
+GMLRS
+The Guided Rocket of the Multiple Launch Rocket System is a modification 
+of the Extended Range Rocket. GMLRS is an inertially guided, single-stage solid 
+propellant rocket designed to deliver a variety of conventional munitions over sig-
+nificantly greater distances with much higher accuracy than the M-26 or ER-
+MLRS free-flight rockets. Equipped with a DPICM warhead, the GMLRS will 
+provide division and corps commanders with an organic capability to engage en-
+emy air defence systems, fire support systems, as well as soft targets and personnel 
+at extended ranges using considerably fewer rockets. The minimum range of the 
+rocket is between ten to fifteen kilometres, while the maximum range extends
+--- 페이지 10 ---
+32 
+Challenges and Issues of Modern Science, 3 (2024)
+from sixty to seventy kilometres (Qian et al., 2022).
+MSTAR
+The Multiple Launch Rocket System (MLRS) Smart Tactical Rocket 
+(MSTAR) is an inertially guided, single-stage, solid propellant rocket designed to 
+deliver smart, multifunctional submunitions over significantly greater distances 
+with enhanced accuracy compared to the basic M26 or the Extended Range MLRS 
+free-flight rockets. MSTAR represents a modification of the MLRS Guided 
+Rocket program, integrating smart, multifunctional submunitions into its warhead 
+while utilizing the same guidance, control section, and rocket motor.
+MSTAR carries one to four versatile smart submunitions, reaching ranges of 
+over fifty kilometers. These submunitions have the capability to detect, engage, 
+and neutralize both manpower and equipment, whether stationary or moving 
+(Plessis, 2023).
+ATACMS Block I and IA
+The Army Tactical Missile System (ATACMS) Block I is a conventional, 
+long-range, surface-to-surface guided missile featuring a semi-ballistic flight path 
+and equipped with an anti-personnel, anti-materiel (APAM) warhead. These 
+missiles are strategically distributed worldwide as part of the ammunition supply 
+for corps Multiple Launch Rocket System (MLRS) battalions and can be launched 
+from any MLRS M270 or HIMARS launcher. The Block I variant can deploy 950 
+M-74 APAM grenades over a maximum range of 165 kilometers. The ATACMS 
+Block I was first introduced in September 1990 and successfully utilized in 
+combat during the Gulf War, with 1,545 missiles currently in active deployment. 
+The Army Tactical Missile System Block IA is an enhanced version of the Block 
+I missile. This variant incorporates a global positioning system receiver that 
+continuously updates the missile's location during its flight, which greatly 
+improves accuracy for effective strikes at longer distances.
+The Block IA can deliver around 300 M-74 APAM grenades with a maximum 
+range exceeding 300 kilometers (Campbell, 2020).
+ATACMS Block II and IIA
+The Army Tactical Missile System (ATACMS) Block II is a conventional, 
+long-range, surface-to-surface, guided, semi-ballistic missile that incorporates the 
+ATACMS Block IA missile along with Brilliant Anti-Tank (BAT) submunitions. 
+The propulsion, guidance, and control sections of Block II remain identical to 
+those of Block IA. The warhead for Block IA is modified to carry and deploy 
+thirteen BAT submunitions over a distance of 140 kilometres (Bailey, 2003).
+Comparison with Traditional Systems
+The comparison of the effectiveness of multiple launch rocket systems with
+--- 페이지 11 ---
+Challenges and Issues of Modern Science, 3 (2024) 
+33
+engine separation after fuel burn-out versus single-stage rockets, using the evolu-
+tion of HIMARS as an example, can be conducted across several key parameters, 
+such as aerodynamic drag, flight range, maneuverability, and missile weight. Let’s 
+examine each of these factors to highlight the differences and advantages.
+1. Aerodynamic Drag: Once the solid-fuel casing is detached after solid fuel 
+burn-out, the length changes, which leads to a decrease in the frictional resistance 
+component of the body. This leads to improved flight performance, allowing the 
+missile to achieve greater speed and range. HIMARS, as a single-stage system, 
+maintains its full length throughout the flight, which results in higher aerodynamic 
+drag and reduced efficiency compared to a system that sheds unnecessary parts.
+2. Flight Range: By shedding the heavy casing after the fuel is consumed, the 
+missile becomes lighter and more streamlined, enabling it to cover longer dis-
+tances than its initial design would suggest.
+3. Maneuverability: After the engine burns out and the casing is discarded, 
+the missile’s smaller, lighter structure enhances its maneuverability. The reduced 
+drag allows the missile’s control system to operate more efficiently, improving its 
+ability to adjust flight paths and hit precise targets over long distances.
+4. Missile Weight: The separation of the engine casing reduces the missile's 
+overall weight, which enhances its efficiency.
+5. Detection decreases: A smaller missile size makes it less visible to radar 
+and other detection systems, lowering the chances of early interception. By reduc-
+ing both size and weight through component separation, the missile achieves a 
+stealthier profile, further enhancing its survivability and effectiveness in reaching 
+its target undetected.
+Key findings
+Separating the solid-fuel engine casing after burn-out significantly reduces 
+the missile’s weight and aerodynamic drag, allowing it to achieve greater flight 
+range and efficiency compared to single-stage systems. With reduced mass and 
+size, the missile becomes more maneuverable, allowing its guidance systems to 
+operate more effectively. This results in increased precision and adaptability over 
+long distances. A smaller missile profile reduces its radar signature, making it less 
+likely to be detected and intercepted. This advantage enhances the missile’s 
+chances of reaching its target successfully. The lighter post-separation structure 
+reduces the load on control and stabilization systems, simplifying the missile's 
+design and lowering the need for complex stabilization mechanisms.
+Conclusion
+Modern and highly effective weapon systems combine long-range capability, 
+mobility, and precision. Their role in future conflicts will only grow as technolo-
+gies advance and fire support systems improve, making them an indispensable 
+part of modern armies' arsenals. Ongoing research and development are crucial 
+for the continuous enhancement of missile systems. As military threats evolve and
+--- 페이지 12 ---
+34 
+Challenges and Issues of Modern Science, 3 (2024)
+combat environments become more complex, extending range, improving accu-
+racy, and increasing adaptability of missile systems become essential. Implement-
+ing innovations, such as separating the spent engine section, will provide armed 
+forces with a decisive advantage on the battlefield, ensuring the relevance of mis-
+sile systems in future conflicts.
+References
+Nistorescu, C. V. (2024). The asymmetries generated by new weapon systems and their role
+in achieving success on the battlefield. The Impact of HIMARS on the conflict in Ukraine, 
+117-128. https://doi.org/10.53477/2284-9378-24-34 
+Dantis, I. (2023). Challenges in the management of defense resources life cycle cost analysis
+for a military capability (High Mobility Artillery Rocket System-HIMARS). Defence 
+Resources 
+Management 
+in 
+the 
+21st 
+Century, 
+18(18), 
+59-71. 
+https://www.ceeol.com/search/article-detail?id=1212055 
+Gady, F. S., & Kofman, M. (2023). Ukraine’s strategy of attrition. Survival, 65(2), 7-22.
+https://doi.org/10.1080/00396338.2023.2193092 
+Pomper, M., & Tuganov, V. (2023). Role of Missiles in Russia’s War on Ukraine and Its
+Implications for the Future of Warfare. In Russia’s War on Ukraine: The Implications for 
+the Global Nuclear Order (pp. 69-93). Cham: Springer Nature Switzerland. 
+https://doi.org/10.1007/978-3-031-32221-1_6 
+Russo, 
+J. 
+(2018). 
+Long-Range 
+Precision 
+Fires. US: 
+Marine 
+Corps 
+Gazette. 
+https://tinyurl.com/4ejr59vn 
+Krepinevich, A. F. (2023). The origins of victory: How disruptive military innovation determines
+the fates of great powers. Yale University Press. https://tinyurl.com/mruaahu7 
+Bailey, J. P. A. (2003). Artillery and warfare 1945-2025. http://hdl.handle.net/1826/4008 
+Strong, P., & Marble, S. (2011). Artillery in the Great War. Grub Street Publishers.
+https://tinyurl.com/48jwkrzd 
+Campbell, D. (2020). Soviet Airborne Forces 1930–91 (Vol. 231). Bloomsbury Publishing.
+https://www.ospreypublishing.com/ca/soviet-airborne-forces-193091-9781472839565/ 
+Qian, L., Chen, G., Tong, M., & Tang, J. (2022). General design principle of artillery for firing
+accuracy. Defence 
+Technology, 18(12), 
+2125-2140. 
+https://doi.org/10.1016/j.dt.2022.09.001 
+Harrison, R., & Evans, D. (2019). Artillery in the Great Patriotic War: Innovation and Evolution
+in 
+Soviet 
+Firepower. 
+Journal 
+of 
+Slavic 
+Military 
+Studies, 
+32(1), 
+58–77. 
+https://tinyurl.com/48jwkrzd 
+Jamie Prenatt (2018). Katyusha: Russian Multiple Rocket Launchers 1941–Present. Oxford:
+Osprey Publishing. https://www.ospreypublishing.com/us/katyusha-9781472810861/ 
+Hill, A. (2021). The Red Army and the Second World War: Assessing Combat Effectiveness.
+Cambridge: Cambridge University Press. https://doi.org/10.1017/9781139107785 
+Rottman, G. L. (2020). Soviet Field Artillery in World War II. Military History Review, 45(2),
+201–219. https://tinyurl.com/ym5c8nrn 
+Du Plessis, J. L. (2023). Artillery in the challenges of future warfare. South African Ballistics
+Organisation, 1. https://tinyurl.com/5fx3p4y4
