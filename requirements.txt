@@ -1,0 +1,58 @@
+# API 및 기본 유틸리티
+openai
+python-dotenv
+requests
+tqdm
+validators
+
+# 웹 스크래핑
+beautifulsoup4
+soupsieve
+
+# 문서 처리
+PyMuPDF  # PDF 파싱
+python-docx  # DOCX 파싱
+
+# 음성 및 오디오 처리
+pydub  # 오디오 파일 조작
+ffmpeg-python  # 오디오/비디오 처리
+librosa  # 음성 분석
+SpeechRecognition  # 음성 인식
+
+# 유튜브 처리
+pytube  # 유튜브 영상 다운로드
+youtube-transcript-api  # 유튜브 자막 추출
+
+# 딥러닝 종속성
+torch
+torchaudio
+numpy
+
+# Eleven Labs TTS
+elevenlabs
+
+# HTTP 및 네트워크
+httpx
+certifi
+charset-normalizer
+idna
+urllib3
+
+# OpenAI Whisper (음성 인식)
+openai-whisper
+
+# Google Drive API
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+
+# OCR 관련 패키지 (이미지 파일 처리용)
+pytesseract
+Pillow
+opencv-python
+numpy
+
+# 주의: Tesseract OCR 엔진도 별도로 설치해야 합니다.
+# Windows: https://github.com/UB-Mannheim/tesseract/wiki 에서 인스톨러 다운로드
+# macOS: brew install tesseract tesseract-lang
+# Ubuntu/Debian: sudo apt-get install tesseract-ocr tesseract-ocr-eng tesseract-ocr-kor
